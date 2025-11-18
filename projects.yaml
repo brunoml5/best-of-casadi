@@ -19,3 +19,106 @@ projects:
   - name: HILO-MPC
     pypi_id: hilo-mpc
     github_id: hilo-mpc/hilo-mpc
+
+  - name: pinocchio
+    pypi_id: pinocchio
+    github_id: stack-of-tasks/pinocchio
+    conda_id: conda-forge/pinocchio
+
+  - name: safe-control-gym
+    pypi_id: safe-control-gym
+    github_id: utiasDSL/safe-control-gym
+    conda_id: conda-forge/safe-control-gym
+
+  - name: mpc-reinforcement-learning
+    pypi_id: mpc-reinforcement-learning
+    github_id: FilippoAiraldi/mpc-reinforcement-learning
+
+  - name: l4casadi
+    pypi_id: l4casadi
+    github_id: Tim-Salzmann/l4casadi
+
+  - name: adam
+    pypi_id: adam-robotics
+    github_id: ami-iit/adam
+    conda_id: conda-forge/adam
+
+  - name: car-racing
+    github_id: HybridRobotics/car-racing
+
+  - name: CasADi_MPC_MHE_Python
+    github_id: tomcattiger1230/CasADi_MPC_MHE_Python
+
+  - name: jaxadi
+    pypi_id: jaxadi
+    github_id: based-robotics/jaxadi
+
+  - name: bioptim
+    pypi_id: bioptim
+    github_id: pyomeca/bioptim
+    conda_id: conda-forge/bioptim
+
+  - name: Learning-Based-MPC
+    github_id: bevanda/Learning-Based-MPC
+
+  - name: rbdl-orb
+    github_id: ORB-HD/rbdl-orb
+
+  - name: mpc-DL-controller
+    github_id: ell-hol/mpc-DL-controller
+
+  - name: biped_trajectory_optimization
+    github_id: IvLabs/biped_trajectory_optimization
+
+  - name: liecasadi
+    pypi_id: liecasadi
+    github_id: ami-iit/liecasadi
+
+  - name: MPC-Implementation
+    github_id: devsonni/MPC-Implementation
+
+  - name: SDD-GP-MPC
+    github_id: Eric-Bradford/SDD-GP-MPC
+
+  - name: UKF-SNMPC
+    github_id: Eric-Bradford/UKF-SNMPC
+
+  - name: casadi_mpc_nyuumon
+    github_id: proxima-technology/casadi_mpc_nyuumon
+
+  - name: TROPIC
+    github_id: fevrem/TROPIC
+
+  - name: quadrotor_mpc
+    github_id: duynamrcv/quadrotor_mpc
+
+  - name: Nominal_NMPC
+    github_id: Eric-Bradford/Nominal_NMPC
+
+  - name: mpc_casadi
+    github_id: duynamrcv/mpc_casadi
+
+  - name: openap-top
+    github_id: junzis/openap-top
+
+  - name: pympc_panoc_ipopt
+    github_id: MizuhoAOKI/pympc_panoc_ipopt
+
+  - name: CasADi.jl
+    github_id: ichatzinikolaidis/CasADi.jl
+
+  - name: casadi-nlp
+    pypi_id: casadi-nlp
+    github_id: FilippoAiraldi/casadi-nlp
+
+  - name: mpc_quad
+    github_id: smidmatej/mpc_quad
+
+  - name: optibot
+    github_id: AunSiro/optibot
+
+  - name: diff_uv
+    github_id: edxmorgan/diff_uv
+
+  - name: spatial-casadi
+    github_id: cmower/spatial-casadi
