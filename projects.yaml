@@ -1,13 +1,6 @@
-configuration:
-  markdown_header_file: "config/header.md"
-  markdown_footer_file: "config/footer.md"
-
+# Required: list of all projects
 projects:
-  - name: do-mpc
-    github_id: do-mpc/do-mpc
-    pypi_id: do-mpc
-    conda_id: conda-forge/do-mpc
-    homepage: www.do-mpc.com/
-  - name: HILO-MPC
-    github_id: hilo-mpc/hilo-mpc
-    pypi_id: hilo-mpc
+  - name: "best-of-ml-python"
+    github_id: "ml-tooling/best-of-ml-python"
+    labels: ["python"]
+    category: "data-engineering"
