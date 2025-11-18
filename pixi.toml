@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Bruno M L <brunoml.eca@gmail.com>"]
+channels = ["conda-forge"]
+name = "best-of-casadi"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "*"
+
+[pypi-dependencies]
+best-of = ">=0.8.6, <0.9"
