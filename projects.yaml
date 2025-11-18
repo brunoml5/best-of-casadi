@@ -19,18 +19,18 @@ projects:
   #   category: "data-engineering"
 
   - name: "do-mpc"
-  github_id: "do-mpc/do-mpc"
-  pypi_id: "do-mpc"
-  conda_id: "conda-forge/do-mpc"
-  #category:
-  #labels:
-  homepage: "www.do-mpc.com/"
-  #show: True
+    github_id: "do-mpc/do-mpc"
+    pypi_id: "do-mpc"
+    conda_id: "conda-forge/do-mpc"
+    #category:
+    #labels:
+    homepage: "www.do-mpc.com/"
+    #show: True
 
   - name: "HILO-MPC"
-  github_id: "hilo-mpc/hilo-mpc"
-  pypi_id: "hilo-mpc"
-  conda_id: "conda-forge/do-mpc"
-  #category:
-  #labels:
-  #show: True
+    github_id: "hilo-mpc/hilo-mpc"
+    pypi_id: "hilo-mpc"
+    conda_id: "conda-forge/do-mpc"
+    #category:
+    #labels:
+    #show: True
