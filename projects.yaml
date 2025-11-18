@@ -1,4 +1,21 @@
+categories:
+  - category: "casadi-devs"
+    title: "From CasADi Devs"
+    subtitle: "List of projects related to the CasADi devs."
+
 # Required: list of all projects
 projects:
-  - name: "best-of-ml-python"
-    github_id: "ml-tooling/best-of-ml-python"
+  - name: casadi
+    pypi_id: casadi
+    github_id: casadi/casadi
+    conda_id: conda-forge/casadi
+    homepage: http://web.casadi.org/
+    category: casadi-devs
+  - name: do-mpc
+    pypi_id: do-mpc
+    github_id: do-mpc/do-mpc
+    conda_id: conda-forge/do-mpc
+    homepage: www.do-mpc.com/
+  - name: HILO-MPC
+    pypi_id: hilo-mpc
+    github_id: hilo-mpc/hilo-mpc
