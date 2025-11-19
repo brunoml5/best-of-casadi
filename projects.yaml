@@ -386,7 +386,7 @@ projects:
     pypi_id: mopeds
     homepage: https://git.tu-berlin.de/dbta/optimization/mopeds
 
-  - name: CadQuery/cadquery
+  - name: CadQuery
     pypi_id: cadquery
     github_id: CadQuery/cadquery
     conda_id: conda-forge/cadquery
