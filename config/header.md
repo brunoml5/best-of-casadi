@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-    <strong>🏆&nbsp; A ranked list of awesome projects.</strong>
+    <strong>🏆&nbsp; A ranked list of awesome projects which use CasADi.</strong>
 </p>
 
 <p align="center">

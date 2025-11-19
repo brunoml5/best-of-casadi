@@ -4,9 +4,9 @@ configuration:
     markdown_footer_file: "config/footer.md"
     allowed_licenses: ["all"]
     hide_license_risk: True  # Default false
-    # project_inactive_months: 6  # Default 6
-    # project_dead_months: 12     # Default 12
-    # project_new_months: 6  # Default 6
+    project_new_months: 12  # Default 6
+    project_inactive_months: 12  # Default 6
+    project_dead_months: 24     # Default 12
     # min_projectrank: 10  # Default 10
     min_stars: 50  # Default 100
     # max_trending_projects: 5  # Default 5
@@ -32,9 +32,9 @@ categories:
     title: "Robotics"
     subtitle: "List of projects applied to robotics."
 
-  - category: "julia"
-    title: "Julia"
-    subtitle: "List of projects using CasADi with Julia."
+  # - category: "julia"
+  #   title: "Julia"
+  #   subtitle: "List of projects using CasADi with Julia."
 
   - category: "article"
     title: "Articles Repos"
@@ -52,6 +52,12 @@ projects:
     github_id: casadi/casadi
     conda_id: conda-forge/casadi
     homepage: http://web.casadi.org/
+    show: True
+    category: casadi-devs
+
+  - name: CasADi.jl
+    github_id: ichatzinikolaidis/CasADi.jl
+    show: True
     category: casadi-devs
 
   - name: rockit
@@ -67,6 +73,7 @@ projects:
     pypi_id: impact-meco
     github_id: meco-group/impact
     homepage: https://meco-software.pages.gitlab.kuleuven.be/impact/
+    description: "Impact: A Toolchain for Nonlinear Model Predictive Control Specification, Prototyping, and Deployment"
     show: True
     category: casadi-devs
 
@@ -185,14 +192,6 @@ projects:
     description: "TuneMPC is a Python package for economic tuning of nonlinear model predictive control (NMPC) problems."
     category: mpc
 
-  - name: UKF-SNMPC
-    github_id: Eric-Bradford/UKF-SNMPC
-    category: mpc
-
-  - name: SDD-GP-MPC
-    github_id: Eric-Bradford/SDD-GP-MPC
-    category: mpc
-
   - name: CasADi_MPC_MHE_Python
     github_id: tomcattiger1230/CasADi_MPC_MHE_Python
     category: mpc
@@ -209,7 +208,7 @@ projects:
     homepage: https://cmower.github.io/optas/
     category: mpc
 
-  - name: mpopt/mpopt
+  - name: MPOPT
     github_id: mpopt/mpopt
     pypi_id: mpopt
     homepage: https://mpopt.readthedocs.io/
@@ -312,11 +311,6 @@ projects:
     pypi_id: aerosandbox
     category: robotics
 
-# Julia related projects
-  - name: CasADi.jl
-    github_id: ichatzinikolaidis/CasADi.jl
-    category: julia
-
 # Articles Repos
   - name: mpc-DL-controller
     github_id: ell-hol/mpc-DL-controller
@@ -326,6 +320,14 @@ projects:
     github_id: freyjo/differentiable_nmpc
     homepage: https://github.com/freyjo/differentiable_nmpc
     description: "Differentiable Nonlinear Model Predictive Control"
+    category: article
+
+  - name: UKF-SNMPC
+    github_id: Eric-Bradford/UKF-SNMPC
+    category: article
+
+  - name: SDD-GP-MPC
+    github_id: Eric-Bradford/SDD-GP-MPC
     category: article
 
 # Other projects
@@ -373,7 +375,7 @@ projects:
   - name: casiopeia
     github_id: adbuerger/casiopeia
 
-  - name: adtzlr/matadi
+  - name: matADi
     github_id: adtzlr/matadi
     pypi_id: matadi
 
