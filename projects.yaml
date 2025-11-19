@@ -16,17 +16,21 @@ categories:
     title: "Directly related to CasADi"
     subtitle: "List of projects related to the CasADi devs."
 
+  - category: "solver"
+    title: "Solvers available in CasADi"
+    subtitle: "List of solvers available in CasADi, excluding the paid solvers like Gurobi and SNOPT."
+
   - category: "mpc"
     title: "Model Predictive Control"
-    subtitle: "List of projects related Model Predictive Control."
+    subtitle: "List of projects related Model Predictive Control and Optimal Control in general."
   
-  - category: "robotics"
-    title: "Robotics"
-    subtitle: "List of projects applied to robotics."
-
   - category: "machine-learning"
     title: "Machine Learning"
     subtitle: "List of projects related to Machine Learning, Reinforcement Learning, Neural Networks, etc..."
+
+  - category: "robotics"
+    title: "Robotics"
+    subtitle: "List of projects applied to robotics."
 
   - category: "julia"
     title: "Julia"
@@ -38,8 +42,11 @@ categories:
 
 # TODO: add labels like JAX or pytorch
 
-# Required: list of all projects
+# TODO: Fix names of the packages
+# TODO: look for casadi in github files
+
 projects:
+# Projects related to casadi
   - name: casadi
     pypi_id: casadi
     github_id: casadi/casadi
@@ -47,7 +54,93 @@ projects:
     homepage: http://web.casadi.org/
     category: casadi-devs
 
+  - name: rockit
+    pypi_id: rockit-meco
+    homepage: https://gitlab.kuleuven.be/meco-software/rockit
+    description: "Rockit (Rapid Optimal Control kit) is a software framework to quickly prototype optimal control problems"
+    category: casadi-devs
+    license: "GNU General Public License v3.0"
+    show: True
+
+# Solvers
+  - name: Ipopt
+    pypi_id: ipopt
+    github_id: coin-or/Ipopt
+    conda_id: conda-forge/ipopt
+    homepage: https://coin-or.github.io/Ipopt/
+    category: solver
+
+  - name: Bonmin
+    github_id: coin-or/Bonmin
+    homepage: https://coin-or.github.io/Bonmin/
+    category: solver
+
+  - name: Fatrop
+    github_id: meco-group/fatrop
+    conda_id: conda-forge/libfatrop
+    homepage: https://meco-group.github.io/fatrop/
+    category: solver
+
+  - name: MadNLP
+    github_id: MadNLP/MadNLP.jl
+    homepage: https://madnlp.github.io/
+    category: solver
+
+  - name: Clarabel
+    github_id: oxfordcontrol/Clarabel.rs
+    conda_id: conda-forge/clarabel
+    homepage: https://clarabel.org/
+    category: solver
+
+  - name: DAQP
+    github_id: darnstrom/daqp
+    pypi_id: daqp
+    conda_id: conda-forge/daqp
+    category: solver
+
+  - name: HiGHS
+    github_id: ERGO-Code/HiGHS
+    conda_id: conda-forge/highspy
+    category: solver
+
+  - name: HPIPM
+    github_id: giaf/hpipm
+    category: solver
+
+  - name: OOQP
+    github_id: emgertz/OOQP
+    homepage: http://www.cs.wisc.edu/~swright/ooqp
+    category: solver
+
+  - name: OSQP
+    github_id: osqp/osqp
+    pypi_id: osqp
+    conda_id: conda-forge/osqp
+    homepage: https://osqp.org/
+    category: solver
+
+  - name: ProxQP
+    github_id: Simple-Robotics/proxsuite
+    pypi_id: proxsuite
+    conda_id: conda-forge/proxsuite
+    category: solver
+  
+  - name: qpOASES
+    github_id: coin-or/qpOASES
+    conda_id: conda-forge/qpoases
+    category: solver
+
+  - name: SUNDIALS
+    github_id: LLNL/sundials
+    homepage: https://computing.llnl.gov/projects/sundials
+    category: solver
+
 # MPC related projects
+  - name: acados
+    github_id: acados/acados
+    homepage: https://docs.acados.org/
+    category: mpc
+
   - name: do-mpc
     pypi_id: do-mpc
     github_id: do-mpc/do-mpc
@@ -60,9 +153,28 @@ projects:
     github_id: hilo-mpc/hilo-mpc
     category: mpc
 
+  - name: MPCTools
+    homepage: https://bitbucket.org/rawlings-group/mpc-tools-casadi
+    description: "MPCTools: Nonlinear Model Predictive Control Tools for CasADi (Python Interface)"
+    license: "GNU General Public License v3.0"
+    show: True
+    category: mpc
+
+  - name: nMPyC
+    pypi_id: nmpyc
+    github_id: nMPyC/nmpyc
+    homepage: https://nmpyc.readthedocs.io/
+    category: mpc
+
   - name: casadi-nlp
     pypi_id: csnlp
     github_id: FilippoAiraldi/casadi-nlp
+    category: mpc
+
+  - name: TuneMPC
+    github_id: jdeschut/tunempc/
+    homepage: https://github.com/jdeschut/tunempc/
+    description: "TuneMPC is a Python package for economic tuning of nonlinear model predictive control (NMPC) problems."
     category: mpc
 
   - name: UKF-SNMPC
@@ -75,6 +187,13 @@ projects:
 
   - name: CasADi_MPC_MHE_Python
     github_id: tomcattiger1230/CasADi_MPC_MHE_Python
+    category: mpc
+
+  - name: nosnoc
+    github_id: nosnoc/nosnoc
+    homepage: https://nosnoc.readthedocs.io/
+    description: "nosnoc is an open-source MATLAB software package for NOnSmooth Numerical Optimal Control. The Python package nosnoc_py with similar functionality is available as well."
+    category: mpc
 
 # Machine Learning related projects
   - name: mpc-reinforcement-learning
@@ -153,6 +272,11 @@ projects:
     github_id: ell-hol/mpc-DL-controller
     category: article
 
+  - name: differentiable_nmpc
+    github_id: freyjo/differentiable_nmpc
+    description: "Differentiable Nonlinear Model Predictive Control"
+    category: article
+
 # Other projects
   - name: liecasadi
     pypi_id: liecasadi
@@ -171,6 +295,13 @@ projects:
     pypi_id: spatial-casadi
 
   - name: pympc_panoc_ipopt
-    github_id: MizuhoAOKI/pympc_panoc_ipopt
+    github_id: mizuhoaoki/pympc_panoc_ipopt
     homepage: https://alphaville.github.io/optimization-engine/
-    description: "MPC pathtracking implementation with python, solved by PANOC/IPOPT"
+
+  - name: SIPPY
+    github_id: CPCLAB-UNIPI/SIPPY
+    pypi_id: sippy_unipi
+
+  - name: Pymoca
+    github_id: pymoca/pymoca
+    pypi_id: pymoca
