@@ -1,19 +1,12 @@
-## 📈 Trending Up
+## ➕ Added Projects
 
-_Projects that have a higher project-quality score compared to the last update. There might be a variety of reasons, such as increased downloads or code activity._
+_Projects that were recently added to this best-of list._
 
-- <b><a href="https://github.com/pybamm-team/PyBaMM">PyBaMM</a></b> (🥇34 ·  ⭐ 1.4K · 📈) - Fast and flexible physics-based battery models in Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
-- <b><a href="https://github.com/ERGO-Code/HiGHS">HiGHS</a></b> (🥇30 ·  ⭐ 1.4K · 📈) - Linear optimization software. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://computing.llnl.gov/projects/sundials">SUNDIALS</a></b> (🥈25 ·  ⭐ 610 · 📈) - Official development repository for SUNDIALS - a SUite of Nonlinear.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
-- <b><a href="https://docs.acados.org/">acados</a></b> (🥇22 ·  ⭐ 1.2K · 📈) - Fast and embedded solvers for nonlinear optimal control and.. <code>Unlicensed</code>
-- <b><a href="https://nosnoc.readthedocs.io/">nosnoc</a></b> (🥉12 ·  ⭐ 67 · 📈) - nosnoc is an open-source MATLAB software package for NOnSmooth.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code>
-
-## 📉 Trending Down
-
-_Projects that have a lower project-quality score compared to the last update. There might be a variety of reasons such as decreased downloads or code activity._
-
-- <b><a href="https://github.com/Eric-Bradford/UKF-SNMPC">UKF-SNMPC</a></b> (🥇6 ·  ⭐ 60 · 💀) - This repository contains the source code for Unscented Kalman filter.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/Eric-Bradford/SDD-GP-MPC">SDD-GP-MPC</a></b> (🥈5 ·  ⭐ 65 · 💀) - This repository contains the source code for Stochastic data-driven.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/edxmorgan/diff_uv">diff_uv</a></b> (🥉4 ·  ⭐ 19 · 📉) - A differentiable underwater vehicle dynamics. <code><a href="http://bit.ly/3pwmjO5">AGPL-3.0</a></code>
-- <b><a href="https://github.com/duynamrcv/quadrotor_mpc">quadrotor_mpc</a></b> (🥉3 ·  ⭐ 55 · 💀) - The implement for the Quadrotor trajectory tracking.. <code>Unlicensed</code>
+- <b><a href="https://cadquery.readthedocs.io/">CadQuery</a></b> (🥇32 ·  ⭐ 4.2K · ➕) - A python parametric CAD scripting framework based on OCCT. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
+- <b><a href="https://github.com/tud-amr/fabrics">(Geometric) Fabrics</a></b> (🥈14 ·  ⭐ 85 · ➕) - Optimization fabrics for behavior design. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
+- <b><a href="https://maximilianb2.github.io/pc-gym/">pc-gym</a></b> (🥉13 ·  ⭐ 67 · ➕) - Reinforcement learning environments for process control applications. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/mahaarbo/urdf2casadi">urdf2casadi</a></b> (🥉11 ·  ⭐ 120 · 💀) - Python library for getting a casadi function for the forward.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/jonarriza96/pydecomp">pydecomp</a></b> (🥉10 ·  ⭐ 30 · ➕) - A Python based implementation for fast convex decomposition of.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://meco-group.github.io/minlp-toolbox/">CAMINO</a></b> (🥉10 ·  ⭐ 28 · ➕) - Python-CasADi-based package containing several algorithms for.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
+- <b><a href="https://github.com/iFR-ACSO/casos">CaΣoS</a></b> (🥉6 ·  ⭐ 16 · ➕) - CaoS is a nonlinear optimization-oriented sum-of-squares toolbox based.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
 
