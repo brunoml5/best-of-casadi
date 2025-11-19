@@ -4,4 +4,7 @@ version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
     "best-of>=0.8.6",
+    "ipykernel>=7.1.0",
+    "pandas>=2.3.3",
+    "pip>=25.3",
 ]

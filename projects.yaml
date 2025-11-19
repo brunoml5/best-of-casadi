@@ -250,6 +250,12 @@ projects:
     homepage: https://www.dynsyslab.org/safe-robot-learning/
     category: machine-learning
 
+  - name: pc-gym
+    github_id: MaximilianB2/pc-gym
+    pypi_id: pcgym
+    homepage: https://maximilianb2.github.io/pc-gym/
+    category: machine-learning
+
 # Robotics related projects
   - name: pinocchio
     pypi_id: pinocchio
@@ -312,6 +318,14 @@ projects:
   - name: AeroSandbox
     github_id: peterdsharpe/AeroSandbox
     pypi_id: aerosandbox
+    category: robotics
+
+  - name: (Geometric) Fabrics
+    github_id: tud-amr/fabrics
+    pypi_id: fabrics
+
+  - name: urdf2casadi
+    github_id: mahaarbo/urdf2casadi
     category: robotics
 
 # Articles Repos
@@ -394,3 +408,16 @@ projects:
 
   - name: nlgreyfast
     github_id: meco-group/nlgreyfast
+
+  - name: CAMINO
+    github_id: minlp-toolbox/CAMINO
+    pypi_id: caminopy
+    homepage: https://meco-group.github.io/minlp-toolbox/
+
+  - name: pydecomp 
+    github_id: jonarriza96/pydecomp
+    pypi_id: pydecomp
+
+  - name: CaΣoS
+    github_id: iFR-ACSO/casos
+    homepage: https://github.com/iFR-ACSO/casos
