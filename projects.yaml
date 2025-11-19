@@ -1,7 +1,42 @@
+# Optional: change the default configuration
+configuration:
+    markdown_header_file: "config/header.md"
+    markdown_footer_file: "config/footer.md"
+    allowed_licenses: ["all"]
+    hide_license_risk: True  # Default false
+    # project_inactive_months: 6  # Default 6
+    # project_dead_months: 12     # Default 12
+    # project_new_months: 6  # Default 6
+    # min_projectrank: 10  # Default 10
+    min_stars: 50  # Default 100
+    # max_trending_projects: 5  # Default 5
+
 categories:
   - category: "casadi-devs"
-    title: "From CasADi Devs"
+    title: "Directly related to CasADi"
     subtitle: "List of projects related to the CasADi devs."
+
+  - category: "mpc"
+    title: "Model Predictive Control"
+    subtitle: "List of projects related Model Predictive Control."
+  
+  - category: "robotics"
+    title: "Robotics"
+    subtitle: "List of projects applied to robotics."
+
+  - category: "machine-learning"
+    title: "Machine Learning"
+    subtitle: "List of projects related to Machine Learning, Reinforcement Learning, Neural Networks, etc..."
+
+  - category: "julia"
+    title: "Julia"
+    subtitle: "List of projects using CasADi with Julia."
+
+  - category: "article"
+    title: "Articles Repos"
+    subtitle: "List of articles repositories implemented with CasADi."
+
+# TODO: add labels like JAX or pytorch
 
 # Required: list of all projects
 projects:
@@ -11,114 +46,131 @@ projects:
     conda_id: conda-forge/casadi
     homepage: http://web.casadi.org/
     category: casadi-devs
+
+# MPC related projects
   - name: do-mpc
     pypi_id: do-mpc
     github_id: do-mpc/do-mpc
     conda_id: conda-forge/do-mpc
     homepage: www.do-mpc.com/
+    category: mpc
+    
   - name: HILO-MPC
     pypi_id: hilo-mpc
     github_id: hilo-mpc/hilo-mpc
+    category: mpc
 
-  - name: pinocchio
-    pypi_id: pinocchio
-    github_id: stack-of-tasks/pinocchio
-    conda_id: conda-forge/pinocchio
+  - name: casadi-nlp
+    pypi_id: csnlp
+    github_id: FilippoAiraldi/casadi-nlp
+    category: mpc
 
-  - name: safe-control-gym
-    pypi_id: safe-control-gym
-    github_id: utiasDSL/safe-control-gym
-    conda_id: conda-forge/safe-control-gym
+  - name: UKF-SNMPC
+    github_id: Eric-Bradford/UKF-SNMPC
+    category: mpc
 
-  - name: mpc-reinforcement-learning
-    pypi_id: mpc-reinforcement-learning
-    github_id: FilippoAiraldi/mpc-reinforcement-learning
-
-  - name: l4casadi
-    pypi_id: l4casadi
-    github_id: Tim-Salzmann/l4casadi
-
-  - name: adam
-    pypi_id: adam-robotics
-    github_id: ami-iit/adam
-    conda_id: conda-forge/adam
-
-  - name: car-racing
-    github_id: HybridRobotics/car-racing
+  - name: SDD-GP-MPC
+    github_id: Eric-Bradford/SDD-GP-MPC
+    category: mpc
 
   - name: CasADi_MPC_MHE_Python
     github_id: tomcattiger1230/CasADi_MPC_MHE_Python
 
+# Machine Learning related projects
+  - name: mpc-reinforcement-learning
+    pypi_id: mpcrl
+    github_id: FilippoAiraldi/mpc-reinforcement-learning
+    homepage: https://mpc-reinforcement-learning.readthedocs.io/
+    category: machine-learning
+
+  - name: casadi-neural-nets
+    pypi_id: csnn
+    github_id: FilippoAiraldi/casadi-neural-nets
+    category: machine-learning
+    
   - name: jaxadi
     pypi_id: jaxadi
     github_id: based-robotics/jaxadi
+    category: machine-learning
+
+  - name: l4casadi
+    pypi_id: l4casadi
+    github_id: Tim-Salzmann/l4casadi
+    category: machine-learning
+
+  - name: safe-control-gym
+    github_id: utiasDSL/safe-control-gym
+    homepage: https://www.dynsyslab.org/safe-robot-learning/
+    category: machine-learning
+
+# Robotics related projects
+  - name: pinocchio
+    pypi_id: pinocchio
+    github_id: stack-of-tasks/pinocchio
+    conda_id: conda-forge/pinocchio
+    homepage: https://stack-of-tasks.github.io/pinocchio/
+    category: robotics
+    
+  - name: adam
+    pypi_id: adam-robotics
+    github_id: ami-iit/adam
+    conda_id: conda-forge/adam-robotics-casadi
+    homepage: https://adam-docs.readthedocs.io/en/latest/
+    category: robotics
 
   - name: bioptim
-    pypi_id: bioptim
     github_id: pyomeca/bioptim
     conda_id: conda-forge/bioptim
-
-  - name: Learning-Based-MPC
-    github_id: bevanda/Learning-Based-MPC
+    category: robotics
 
   - name: rbdl-orb
     github_id: ORB-HD/rbdl-orb
-
-  - name: mpc-DL-controller
-    github_id: ell-hol/mpc-DL-controller
-
-  - name: biped_trajectory_optimization
-    github_id: IvLabs/biped_trajectory_optimization
-
-  - name: liecasadi
-    pypi_id: liecasadi
-    github_id: ami-iit/liecasadi
-
-  - name: MPC-Implementation
-    github_id: devsonni/MPC-Implementation
-
-  - name: SDD-GP-MPC
-    github_id: Eric-Bradford/SDD-GP-MPC
-
-  - name: UKF-SNMPC
-    github_id: Eric-Bradford/UKF-SNMPC
-
-  - name: casadi_mpc_nyuumon
-    github_id: proxima-technology/casadi_mpc_nyuumon
+    category: robotics
 
   - name: TROPIC
     github_id: fevrem/TROPIC
+    category: robotics
+  
+  - name: diff_uv
+    github_id: edxmorgan/diff_uv
+    category: robotics
+
+  - name: biped_trajectory_optimization
+    github_id: IvLabs/biped_trajectory_optimization
+    category: robotics
 
   - name: quadrotor_mpc
     github_id: duynamrcv/quadrotor_mpc
+    category: robotics
 
-  - name: Nominal_NMPC
-    github_id: Eric-Bradford/Nominal_NMPC
+# Julia related projects
+  - name: CasADi.jl
+    github_id: ichatzinikolaidis/CasADi.jl
+    category: julia
 
-  - name: mpc_casadi
-    github_id: duynamrcv/mpc_casadi
+# Articles Repos
+  - name: mpc-DL-controller
+    github_id: ell-hol/mpc-DL-controller
+    category: article
+
+# Other projects
+  - name: liecasadi
+    pypi_id: liecasadi
+    github_id: ami-iit/liecasadi
+    conda_id: conda-forge/liecasadi
+
+  - name: car-racing
+    github_id: HybridRobotics/car-racing
 
   - name: openap-top
     github_id: junzis/openap-top
-
-  - name: pympc_panoc_ipopt
-    github_id: MizuhoAOKI/pympc_panoc_ipopt
-
-  - name: CasADi.jl
-    github_id: ichatzinikolaidis/CasADi.jl
-
-  - name: casadi-nlp
-    pypi_id: casadi-nlp
-    github_id: FilippoAiraldi/casadi-nlp
-
-  - name: mpc_quad
-    github_id: smidmatej/mpc_quad
-
-  - name: optibot
-    github_id: AunSiro/optibot
-
-  - name: diff_uv
-    github_id: edxmorgan/diff_uv
+    pypi_id: openap-top
 
   - name: spatial-casadi
     github_id: cmower/spatial-casadi
+    pypi_id: spatial-casadi
+
+  - name: pympc_panoc_ipopt
+    github_id: MizuhoAOKI/pympc_panoc_ipopt
+    homepage: https://alphaville.github.io/optimization-engine/
+    description: "MPC pathtracking implementation with python, solved by PANOC/IPOPT"

@@ -1,7 +1,35 @@
+<!-- markdownlint-disable -->
+<h1 align="center">
+    best-of-casadi
+    <br>
+</h1>
+
+<p align="center">
+    <strong>🏆&nbsp; A ranked list of awesome projects.</strong>
+</p>
+
+<p align="center">
+    <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-27-blue.svg?color=5ac4bf"></a>
+    <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
+    <a href="https://github.com/brunoml5/best-of-casadi/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/brunoml5/best-of-casadi?color=green&label=updated"></a>
+</p>
+
+This curated list contains 27 awesome open-source projects with a total of 7.1K stars grouped into 6 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. 
+
+If you like to add or update projects, feel free to open an [issue](https://github.com/brunoml5/best-of-casadi/issues/new/choose), submit a [pull request](https://github.com/brunoml5/best-of-casadi/pulls), or directly edit the [projects.yaml](https://github.com/brunoml5/best-of-casadi/edit/main/projects.yaml). Contributions are very welcome!
+
+> 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
+
 ## Contents
 
-- [From CasADi Devs](#from-casadi-devs) _1 projects_
-- [Others](#others) _31 projects_
+- [Directly related to CasADi](#directly-related-to-casadi) _1 projects_
+- [Model Predictive Control](#model-predictive-control) _5 projects_
+- [Robotics](#robotics) _8 projects_
+- [Machine Learning](#machine-learning) _5 projects_
+- [Julia](#julia) _1 projects_
+- [Articles Repos](#articles-repos) _1 projects_
+- [Others](#others) _6 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -11,7 +39,6 @@
 - 💀&nbsp; Dead project _(12 months no activity)_
 - 📈📉&nbsp; Project is trending up or down
 - ➕&nbsp; Project was recently added
-- ❗️&nbsp; Warning _(e.g. missing/risky license)_
 - 👨‍💻&nbsp; Contributors count from GitHub
 - 🔀&nbsp; Fork count from GitHub
 - 📋&nbsp; Issue count from GitHub
@@ -21,20 +48,20 @@
 
 <br>
 
-## From CasADi Devs
+## Directly related to CasADi
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _List of projects related to the CasADi devs._
 
-<details><summary><b><a href="http://web.casadi.org/">casadi</a></b> (🥇24 ·  ⭐ 2K) - CasADi is a symbolic framework for numeric optimization implementing.. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
+<details><summary><b><a href="http://web.casadi.org/">casadi</a></b> (🥇24 ·  ⭐ 2K) - CasADi is a symbolic framework for numeric optimization implementing.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/casadi/casadi) (👨‍💻 62 · 🔀 420):
 
 	```
 	git clone https://github.com/casadi/casadi
 	```
-- [PyPi](https://pypi.org/project/casadi) (📥 480K / month · 📦 180 · ⏱️ 10.09.2025):
+- [PyPi](https://pypi.org/project/casadi) (📥 490K / month · 📦 180 · ⏱️ 10.09.2025):
 	```
 	pip install casadi
 	```
@@ -45,11 +72,55 @@ _List of projects related to the CasADi devs._
 </details>
 <br>
 
-## Others
+## Model Predictive Control
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/stack-of-tasks/pinocchio">pinocchio</a></b> (🥇21 ·  ⭐ 1.4K · ➕) - A fast and flexible implementation of Rigid Body Dynamics.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+_List of projects related Model Predictive Control._
+
+<details><summary><b><a href="www.do-mpc.com/">do-mpc</a></b> (🥇18 ·  ⭐ 1K) - Model predictive control python toolbox. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code></summary>
+
+- [GitHub](https://github.com/do-mpc/do-mpc) (👨‍💻 11 · 🔀 180):
+
+	```
+	git clone https://github.com/do-mpc/do-mpc
+	```
+- [PyPi](https://pypi.org/project/do-mpc) (📥 29K / month · 📦 7 · ⏱️ 31.10.2025):
+	```
+	pip install do-mpc
+	```
+- [Conda](https://anaconda.org/conda-forge/do-mpc) (📥 11K · ⏱️ 31.10.2025):
+	```
+	conda install -c conda-forge do-mpc
+	```
+</details>
+<details><summary><b><a href="https://github.com/hilo-mpc/hilo-mpc">HILO-MPC</a></b> (🥈14 ·  ⭐ 180) - HILO-MPC is a Python toolbox for easy, flexible and fast development.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code></summary>
+
+- [GitHub](https://github.com/hilo-mpc/hilo-mpc) (👨‍💻 7 · 🔀 36):
+
+	```
+	git clone https://github.com/hilo-mpc/hilo-mpc
+	```
+- [PyPi](https://pypi.org/project/hilo-mpc) (📥 320 / month · ⏱️ 09.11.2025):
+	```
+	pip install hilo-mpc
+	```
+</details>
+<details><summary>Show 3 hidden projects...</summary>
+
+- <b><a href="https://github.com/FilippoAiraldi/casadi-nlp">casadi-nlp</a></b> (🥈14 ·  ⭐ 24) - Nonlinear Progamming with CasADi. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/Eric-Bradford/UKF-SNMPC">UKF-SNMPC</a></b> (🥉7 ·  ⭐ 56 · 💀) - This repository contains the source code for Unscented Kalman filter.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/Eric-Bradford/SDD-GP-MPC">SDD-GP-MPC</a></b> (🥉6 ·  ⭐ 29 · 💀) - This repository contains the source code for Stochastic data-driven.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+</details>
+<br>
+
+## Robotics
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_List of projects applied to robotics._
+
+<details><summary><b><a href="https://stack-of-tasks.github.io/pinocchio/">pinocchio</a></b> (🥇21 ·  ⭐ 1.4K) - A fast and flexible implementation of Rigid Body Dynamics algorithms.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/stack-of-tasks/pinocchio) (👨‍💻 54 · 🔀 330):
 
@@ -65,23 +136,7 @@ _List of projects related to the CasADi devs._
 	conda install -c conda-forge pinocchio
 	```
 </details>
-<details><summary><b><a href="www.do-mpc.com/">do-mpc</a></b> (🥇18 ·  ⭐ 1K) - Model predictive control python toolbox. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
-
-- [GitHub](https://github.com/do-mpc/do-mpc) (👨‍💻 11 · 🔀 180):
-
-	```
-	git clone https://github.com/do-mpc/do-mpc
-	```
-- [PyPi](https://pypi.org/project/do-mpc) (📥 28K / month · 📦 7 · ⏱️ 31.10.2025):
-	```
-	pip install do-mpc
-	```
-- [Conda](https://anaconda.org/conda-forge/do-mpc) (📥 11K · ⏱️ 31.10.2025):
-	```
-	conda install -c conda-forge do-mpc
-	```
-</details>
-<details><summary><b><a href="https://github.com/ami-iit/adam">adam</a></b> (🥇16 ·  ⭐ 200 · ➕) - adam implements a collection of algorithms for calculating rigid-body.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://adam-docs.readthedocs.io/en/latest/">adam</a></b> (🥈16 ·  ⭐ 200) - adam implements a collection of algorithms for calculating rigid-body.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/ami-iit/adam) (👨‍💻 10 · 🔀 25):
 
@@ -92,72 +147,126 @@ _List of projects related to the CasADi devs._
 	```
 	pip install adam-robotics
 	```
-- [Conda](https://anaconda.org/conda-forge/adam):
+- [Conda](https://anaconda.org/conda-forge/adam-robotics-casadi) (📥 1.7K · ⏱️ 20.10.2025):
 	```
-	conda install -c conda-forge adam
-	```
-</details>
-<details><summary><b><a href="https://github.com/hilo-mpc/hilo-mpc">HILO-MPC</a></b> (🥇14 ·  ⭐ 180) - HILO-MPC is a Python toolbox for easy, flexible and fast.. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
-
-- [GitHub](https://github.com/hilo-mpc/hilo-mpc) (👨‍💻 7 · 🔀 36):
-
-	```
-	git clone https://github.com/hilo-mpc/hilo-mpc
-	```
-- [PyPi](https://pypi.org/project/hilo-mpc) (📥 320 / month · ⏱️ 09.11.2025):
-	```
-	pip install hilo-mpc
+	conda install -c conda-forge adam-robotics-casadi
 	```
 </details>
-<details><summary><b><a href="https://github.com/FilippoAiraldi/mpc-reinforcement-learning">mpc-reinforcement-learning</a></b> (🥈10 ·  ⭐ 550 · ➕) - Reinforcement Learning with Model Predictive Control. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/pyomeca/bioptim">bioptim</a></b> (🥈13 ·  ⭐ 92) - An optimization framework that links CasADi, Ipopt, ACADOS and biorbd for.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/pyomeca/bioptim) (👨‍💻 19 · 🔀 46):
+
+	```
+	git clone https://github.com/pyomeca/bioptim
+	```
+- [Conda](https://anaconda.org/conda-forge/bioptim) (📥 160K · ⏱️ 04.11.2025):
+	```
+	conda install -c conda-forge bioptim
+	```
+</details>
+<details><summary>Show 5 hidden projects...</summary>
+
+- <b><a href="https://github.com/ORB-HD/rbdl-orb">rbdl-orb</a></b> (🥉7 ·  ⭐ 100 · 💀) - RBDL - Rigid Body Dynamics Library - ORB Version - The two.. <code>Unlicensed</code>
+- <b><a href="https://github.com/fevrem/TROPIC">TROPIC</a></b> (🥉6 ·  ⭐ 24 · 💀) - TROPIC: TRajectory OPtimization In CasADi. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
+- <b><a href="https://github.com/edxmorgan/diff_uv">diff_uv</a></b> (🥉6 ·  ⭐ 8 · 💀) - A differentiable underwater vehicle dynamics in body and ned(euler &.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/IvLabs/biped_trajectory_optimization">biped_trajectory_optimization</a></b> (🥉5 ·  ⭐ 82 · 💀) - Implementing trajectory optimization on bipedal system. <code>Unlicensed</code>
+- <b><a href="https://github.com/duynamrcv/quadrotor_mpc">quadrotor_mpc</a></b> (🥉4 ·  ⭐ 21 · 💀) - The implement for the Quadrotor trajectory tracking.. <code>Unlicensed</code>
+</details>
+<br>
+
+## Machine Learning
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_List of projects related to Machine Learning, Reinforcement Learning, Neural Networks, etc..._
+
+<details><summary><b><a href="https://mpc-reinforcement-learning.readthedocs.io/">mpc-reinforcement-learning</a></b> (🥇17 ·  ⭐ 550) - Reinforcement Learning with Model Predictive Control. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/FilippoAiraldi/mpc-reinforcement-learning) (👨‍💻 4 · 🔀 58):
 
 	```
 	git clone https://github.com/FilippoAiraldi/mpc-reinforcement-learning
 	```
-- [PyPi](https://pypi.org/project/mpc-reinforcement-learning):
+- [PyPi](https://pypi.org/project/mpcrl) (📥 1.4K / month · 📦 3 · ⏱️ 17.10.2025):
 	```
-	pip install mpc-reinforcement-learning
+	pip install mpcrl
 	```
 </details>
-<details><summary><b><a href="https://github.com/based-robotics/jaxadi">jaxadi</a></b> (🥈10 ·  ⭐ 130 · 💤) - Transforms your CasADi functions into batchable JAX-compatible.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/based-robotics/jaxadi">jaxadi</a></b> (🥉10 ·  ⭐ 130 · 💤) - Transforms your CasADi functions into batchable JAX-compatible.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/based-robotics/jaxadi) (👨‍💻 3 · 🔀 3):
 
 	```
 	git clone https://github.com/based-robotics/jaxadi
 	```
-- [PyPi](https://pypi.org/project/jaxadi) (📥 40 / month · ⏱️ 08.02.2025):
+- [PyPi](https://pypi.org/project/jaxadi) (📥 41 / month · ⏱️ 08.02.2025):
 	```
 	pip install jaxadi
 	```
 </details>
-<details><summary>Show 25 hidden projects...</summary>
+<details><summary>Show 3 hidden projects...</summary>
 
-- <b><a href="https://github.com/pyomeca/bioptim">bioptim</a></b> (🥈13 ·  ⭐ 92 · ➕) - An optimization framework that links CasADi, Ipopt, ACADOS and biorbd.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/Tim-Salzmann/l4casadi">l4casadi</a></b> (🥈12 ·  ⭐ 350 · 💀) - Use PyTorch Models with CasADi for data-driven optimization or.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/ami-iit/liecasadi">liecasadi</a></b> (🥈10 ·  ⭐ 46 · 💤) - Rigid transform using Lie groups and Dual Quaternions, written in.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
-- <b><a href="https://github.com/utiasDSL/safe-control-gym">safe-control-gym</a></b> (🥈9 ·  ⭐ 540 · 💀) - PyBullet CartPole and Quadrotor environmentswith CasADi.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/ORB-HD/rbdl-orb">rbdl-orb</a></b> (🥈7 ·  ⭐ 100 · 💀) - RBDL - Rigid Body Dynamics Library - ORB Version - The two.. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/Eric-Bradford/UKF-SNMPC">UKF-SNMPC</a></b> (🥈7 ·  ⭐ 56 · 💀) - This repository contains the source code for Unscented Kalman filter.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/FilippoAiraldi/casadi-nlp">casadi-nlp</a></b> (🥈7 ·  ⭐ 24 · ➕) - Nonlinear Progamming with CasADi. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/HybridRobotics/car-racing">car-racing</a></b> (🥉6 ·  ⭐ 73 · 💀) - A toolkit for testing control and planning algorithm for car racing. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/Eric-Bradford/Nominal_NMPC">Nominal_NMPC</a></b> (🥉6 ·  ⭐ 39 · 💀) - A basic nonlinear model predictive control implementation using.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/junzis/openap-top">openap-top</a></b> (🥉6 ·  ⭐ 35 · ➕) - easy-peasy optimal flight trajectory. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code>
-- <b><a href="https://github.com/Eric-Bradford/SDD-GP-MPC">SDD-GP-MPC</a></b> (🥉6 ·  ⭐ 29 · 💀) - This repository contains the source code for Stochastic data-driven.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/fevrem/TROPIC">TROPIC</a></b> (🥉6 ·  ⭐ 24 · 💀) - TROPIC: TRajectory OPtimization In CasADi. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
-- <b><a href="https://github.com/ichatzinikolaidis/CasADi.jl">CasADi.jl</a></b> (🥉6 ·  ⭐ 24 · 💀) - Julia interface to CasADi via PyCall. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/edxmorgan/diff_uv">diff_uv</a></b> (🥉6 ·  ⭐ 8 · 💀) - A differentiable underwater vehicle dynamics in body and ned(euler &.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/tomcattiger1230/CasADi_MPC_MHE_Python">CasADi_MPC_MHE_Python</a></b> (🥉5 ·  ⭐ 130 · 💀) - This repository is an implementation of the work from.. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/IvLabs/biped_trajectory_optimization">biped_trajectory_optimization</a></b> (🥉5 ·  ⭐ 82 · 💀) - Implementing trajectory optimization on bipedal system. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/ell-hol/mpc-DL-controller">mpc-DL-controller</a></b> (🥉5 ·  ⭐ 31 · 💀) - Deep Neural Network architecture as a predictive.. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/AunSiro/optibot">optibot</a></b> (🥉5 ·  ⭐ 15 · 💤) - Collocation methods for trajectory optimization for second or higher.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/cmower/spatial-casadi">spatial-casadi</a></b> (🥉5 ·  ⭐ 6 · 💀) - Spatial transformation library for CasADi Python. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code>
-- <b><a href="https://github.com/bevanda/Learning-Based-MPC">Learning-Based-MPC</a></b> (🥉4 ·  ⭐ 23 · 💀) - Learning-Based Model Predictive Control (LBMPC). <code>❗Unlicensed</code>
-- <b><a href="https://github.com/duynamrcv/quadrotor_mpc">quadrotor_mpc</a></b> (🥉4 ·  ⭐ 21 · 💀) - The implement for the Quadrotor trajectory tracking.. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/proxima-technology/casadi_mpc_nyuumon">casadi_mpc_nyuumon</a></b> (🥉4 ·  ⭐ 14 · 💀) -  <code>❗Unlicensed</code>
-- <b><a href="https://github.com/MizuhoAOKI/pympc_panoc_ipopt">pympc_panoc_ipopt</a></b> (🥉4 ·  ⭐ 3 · 💀) -  <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/duynamrcv/mpc_casadi">mpc_casadi</a></b> (🥉3 ·  ⭐ 20 · 💀) - ROS implementation for omnidirectional mobile robot.. <code>❗Unlicensed</code>
-- <b><a href="https://github.com/devsonni/MPC-Implementation">MPC-Implementation</a></b> (🥉3 ·  ⭐ 14 · 💀) - This repository has the code for the nonlinear model.. <code>❗Unlicensed</code>
+- <b><a href="https://www.dynsyslab.org/safe-robot-learning/">safe-control-gym</a></b> (🥉9 ·  ⭐ 540 · 💀) - PyBullet CartPole and Quadrotor environmentswith CasADi.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/FilippoAiraldi/casadi-neural-nets">casadi-neural-nets</a></b> (🥉9 ·  ⭐ 10 · 💤) - Neural Networks with CasADi. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 </details>
+<br>
+
+## Julia
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_List of projects using CasADi with Julia._
+
+<details><summary>Show 1 hidden projects...</summary>
+
+- <b><a href="https://github.com/ichatzinikolaidis/CasADi.jl">CasADi.jl</a></b> (🥇6 ·  ⭐ 24 · 💀) - Julia interface to CasADi via PyCall. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+</details>
+<br>
+
+## Articles Repos
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_List of articles repositories implemented with CasADi._
+
+<details><summary>Show 1 hidden projects...</summary>
+
+- <b><a href="https://github.com/ell-hol/mpc-DL-controller">mpc-DL-controller</a></b> (🥇5 ·  ⭐ 31 · 💀) - Deep Neural Network architecture as a predictive.. <code>Unlicensed</code>
+</details>
+<br>
+
+## Others
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary>Show 6 hidden projects...</summary>
+
+- <b><a href="https://github.com/ami-iit/liecasadi">liecasadi</a></b> (🥇10 ·  ⭐ 46 · 💤) - Rigid transform using Lie groups and Dual Quaternions, written in.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
+- <b><a href="https://github.com/cmower/spatial-casadi">spatial-casadi</a></b> (🥈9 ·  ⭐ 6 · 💀) - Spatial transformation library for CasADi Python. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
+- <b><a href="https://github.com/junzis/openap-top">openap-top</a></b> (🥈8 ·  ⭐ 35) - easy-peasy optimal flight trajectory. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
+- <b><a href="https://github.com/HybridRobotics/car-racing">car-racing</a></b> (🥉6 ·  ⭐ 73 · 💀) - A toolkit for testing control and planning algorithm for car racing. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://github.com/tomcattiger1230/CasADi_MPC_MHE_Python">CasADi_MPC_MHE_Python</a></b> (🥉5 ·  ⭐ 130 · 💀) - This repository is an implementation of the work from.. <code>Unlicensed</code>
+- <b><a href="https://alphaville.github.io/optimization-engine/">pympc_panoc_ipopt</a></b> (🥉4 ·  ⭐ 3 · 💀) - MPC pathtracking implementation with python, solved by.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+</details>
+
+---
+
+## Related Resources
+
+- [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics.
+
+## Contribution
+
+Contributions are encouraged and always welcome! If you like to add or update projects, choose one of the following ways:
+
+- Open an issue by selecting one of the provided categories from the [issue page](https://github.com/brunoml5/best-of-casadi/issues/new/choose) and fill in the requested information.
+- Modify the [projects.yaml](https://github.com/brunoml5/best-of-casadi/blob/main/projects.yaml) with your additions or changes, and submit a pull request. This can also be done directly via the [Github UI](https://github.com/brunoml5/best-of-casadi/edit/main/projects.yaml).
+
+If you like to contribute to or share suggestions regarding the project metadata collection or markdown generation, please refer to the [best-of-generator](https://github.com/best-of-lists/best-of-generator) repository. If you like to create your own best-of list, we recommend to follow [this guide](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
+
+For more information on how to add or update projects, please read the [contribution guidelines](https://github.com/brunoml5/best-of-casadi/blob/main/CONTRIBUTING.md). By participating in this project, you agree to abide by its [Code of Conduct](https://github.com/brunoml5/best-of-casadi/blob/main/.github/CODE_OF_CONDUCT.md).
+
+## License
+
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
