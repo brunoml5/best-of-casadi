@@ -56,11 +56,19 @@ projects:
 
   - name: rockit
     pypi_id: rockit-meco
+    github_id: meco-group/rockit
     homepage: https://gitlab.kuleuven.be/meco-software/rockit
     description: "Rockit (Rapid Optimal Control kit) is a software framework to quickly prototype optimal control problems"
-    category: casadi-devs
-    license: "GNU General Public License v3.0"
+    # license: "GNU General Public License v3.0"
     show: True
+    category: casadi-devs
+
+  - name: Impact
+    pypi_id: impact-meco
+    github_id: meco-group/impact
+    homepage: https://meco-software.pages.gitlab.kuleuven.be/impact/
+    show: True
+    category: casadi-devs
 
 # Solvers
   - name: Ipopt
@@ -195,6 +203,18 @@ projects:
     description: "nosnoc is an open-source MATLAB software package for NOnSmooth Numerical Optimal Control. The Python package nosnoc_py with similar functionality is available as well."
     category: mpc
 
+  - name: OpTaS
+    github_id: cmower/optas
+    pypi_id: pyoptas  
+    homepage: https://cmower.github.io/optas/
+    category: mpc
+
+  - name: mpopt/mpopt
+    github_id: mpopt/mpopt
+    pypi_id: mpopt
+    homepage: https://mpopt.readthedocs.io/
+    category: mpc
+
 # Machine Learning related projects
   - name: mpc-reinforcement-learning
     pypi_id: mpcrl
@@ -215,6 +235,12 @@ projects:
   - name: l4casadi
     pypi_id: l4casadi
     github_id: Tim-Salzmann/l4casadi
+    category: machine-learning
+
+  - name: leap-c
+    github_id: leap-c/leap-c
+    homepage: https://leap-c.github.io/leap-c/
+    description: "Learning Predictive Control: A framework for integrating optimal control solvers into deep learning pipelines."
     category: machine-learning
 
   - name: safe-control-gym
@@ -262,6 +288,30 @@ projects:
     github_id: duynamrcv/quadrotor_mpc
     category: robotics
 
+  - name: omg-tools
+    github_id: meco-group/omg-tools
+    pypi_id: omg-tools
+    category: robotics
+
+  - name: 3dpredictsim
+    github_id: antoinefalisse/3dpredictsim
+    category: robotics
+
+  - name: horizon
+    github_id: ADVRHumanoids/horizon
+    homepage: https://advrhumanoids.github.io/horizon/
+    category: robotics
+
+  - name: OpenAP
+    github_id: junzis/openap-top
+    pypi_id: openap-top
+    category: robotics
+
+  - name: AeroSandbox
+    github_id: peterdsharpe/AeroSandbox
+    pypi_id: aerosandbox
+    category: robotics
+
 # Julia related projects
   - name: CasADi.jl
     github_id: ichatzinikolaidis/CasADi.jl
@@ -274,6 +324,7 @@ projects:
 
   - name: differentiable_nmpc
     github_id: freyjo/differentiable_nmpc
+    homepage: https://github.com/freyjo/differentiable_nmpc
     description: "Differentiable Nonlinear Model Predictive Control"
     category: article
 
@@ -297,6 +348,7 @@ projects:
   - name: pympc_panoc_ipopt
     github_id: mizuhoaoki/pympc_panoc_ipopt
     homepage: https://alphaville.github.io/optimization-engine/
+    description: "MPC pathtracking implementation with python, solved by PANOC/IPOPT"
 
   - name: SIPPY
     github_id: CPCLAB-UNIPI/SIPPY
@@ -305,3 +357,35 @@ projects:
   - name: Pymoca
     github_id: pymoca/pymoca
     pypi_id: pymoca
+
+  - name: Deltares RTC-Tools
+    github_id: rtc-tools/rtc-tools
+    pypi_id: rtc-tools
+
+  - name: PyBaMM
+    pypi_id: pybamm
+    github_id: pybamm-team/PyBaMM
+    conda_id: conda-forge/pybamm
+
+  - name: paresto
+    github_id: rawlings-group/paresto
+
+  - name: casiopeia
+    github_id: adbuerger/casiopeia
+
+  - name: adtzlr/matadi
+    github_id: adtzlr/matadi
+    pypi_id: matadi
+
+  - name: mopeds
+    pypi_id: mopeds
+    homepage: https://git.tu-berlin.de/dbta/optimization/mopeds
+
+  - name: CadQuery/cadquery
+    pypi_id: cadquery
+    github_id: CadQuery/cadquery
+    conda_id: conda-forge/cadquery
+    homepage: https://cadquery.readthedocs.io/
+
+  - name: nlgreyfast
+    github_id: meco-group/nlgreyfast
