@@ -2,14 +2,17 @@
 configuration:
     markdown_header_file: "config/header.md"
     markdown_footer_file: "config/footer.md"
+    # generate_toc: False  # Default true
     allowed_licenses: ["all"]
+    require_license: False  # Default true
     hide_license_risk: True  # Default false
     project_new_months: 12  # Default 6
     project_inactive_months: 12  # Default 6
     project_dead_months: 24     # Default 12
-    # min_projectrank: 10  # Default 10
     min_stars: 50  # Default 100
+    min_projectrank: 5  # Default 10
     # max_trending_projects: 5  # Default 5
+    min_description_length: 0  # Default 10
 
 categories:
   - category: "casadi-devs"
