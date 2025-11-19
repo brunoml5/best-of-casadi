@@ -10,12 +10,12 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-66-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-72-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/brunoml5/best-of-casadi/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/brunoml5/best-of-casadi?color=green&label=updated"></a>
 </p>
 
-This curated list contains 66 awesome open-source projects with a total of 28K stars grouped into 6 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. 
+This curated list contains 72 awesome open-source projects with a total of 28K stars grouped into 6 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. 
 
 If you like to add or update projects, feel free to open an [issue](https://github.com/brunoml5/best-of-casadi/issues/new/choose), submit a [pull request](https://github.com/brunoml5/best-of-casadi/pulls), or directly edit the [projects.yaml](https://github.com/brunoml5/best-of-casadi/edit/main/projects.yaml). Contributions are very welcome!
 
@@ -26,10 +26,10 @@ If you like to add or update projects, feel free to open an [issue](https://gith
 - [Directly related to CasADi](#directly-related-to-casadi) _4 projects_
 - [Solvers available in CasADi](#solvers-available-in-casadi) _13 projects_
 - [Model Predictive Control](#model-predictive-control) _11 projects_
-- [Machine Learning](#machine-learning) _6 projects_
-- [Robotics](#robotics) _13 projects_
+- [Machine Learning](#machine-learning) _7 projects_
+- [Robotics](#robotics) _14 projects_
 - [Articles Repos](#articles-repos) _4 projects_
-- [Others](#others) _15 projects_
+- [Others](#others) _19 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -126,7 +126,7 @@ _List of solvers available in CasADi, excluding the paid solvers like Gurobi and
 	conda install -c conda-forge osqp
 	```
 </details>
-<details><summary><b><a href="https://github.com/ERGO-Code/HiGHS">HiGHS</a></b> (🥇30 ·  ⭐ 1.4K · 📈) - Linear optimization software. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/ERGO-Code/HiGHS">HiGHS</a></b> (🥇30 ·  ⭐ 1.4K) - Linear optimization software. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/ERGO-Code/HiGHS) (👨‍💻 98 · 🔀 260 · 📥 14K · 📋 960 - 12% open · ⏱️ 28.10.2025):
 
@@ -170,7 +170,7 @@ _List of solvers available in CasADi, excluding the paid solvers like Gurobi and
 	conda install -c conda-forge proxsuite
 	```
 </details>
-<details><summary><b><a href="https://computing.llnl.gov/projects/sundials">SUNDIALS</a></b> (🥈25 ·  ⭐ 610 · 📈) - Official development repository for SUNDIALS - a SUite of Nonlinear.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://computing.llnl.gov/projects/sundials">SUNDIALS</a></b> (🥈25 ·  ⭐ 610) - Official development repository for SUNDIALS - a SUite of Nonlinear and.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/LLNL/sundials) (👨‍💻 47 · 🔀 160 · 📥 430K · 📋 240 - 13% open · ⏱️ 29.09.2025):
 
@@ -282,7 +282,7 @@ _List of projects related Model Predictive Control and Optimal Control in genera
 	conda install -c conda-forge do-mpc
 	```
 </details>
-<details><summary><b><a href="https://docs.acados.org/">acados</a></b> (🥇22 ·  ⭐ 1.2K · 📈) - Fast and embedded solvers for nonlinear optimal control and.. <code>Unlicensed</code></summary>
+<details><summary><b><a href="https://docs.acados.org/">acados</a></b> (🥇22 ·  ⭐ 1.2K) - Fast and embedded solvers for nonlinear optimal control and.. <code>Unlicensed</code></summary>
 
 - [GitHub](https://github.com/acados/acados) (👨‍💻 96 · 🔀 290 · 📥 94 · 📋 370 - 13% open · ⏱️ 18.11.2025):
 
@@ -326,7 +326,7 @@ _List of projects related Model Predictive Control and Optimal Control in genera
 	pip install mpopt
 	```
 </details>
-<details><summary><b><a href="https://nosnoc.readthedocs.io/">nosnoc</a></b> (🥉12 ·  ⭐ 67 · 📈) - nosnoc is an open-source MATLAB software package for NOnSmooth.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://nosnoc.readthedocs.io/">nosnoc</a></b> (🥉12 ·  ⭐ 67) - nosnoc is an open-source MATLAB software package for NOnSmooth Numerical.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/nosnoc/nosnoc) (👨‍💻 3 · 🔀 10 · 📋 55 - 50% open · ⏱️ 02.04.2025):
 
@@ -389,6 +389,18 @@ _List of projects related to Machine Learning, Reinforcement Learning, Neural Ne
 
 	```
 	git clone https://github.com/utiasDSL/safe-control-gym
+	```
+</details>
+<details><summary><b><a href="https://maximilianb2.github.io/pc-gym/">pc-gym</a></b> (🥉13 ·  ⭐ 67 · ➕) - Reinforcement learning environments for process control applications. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/MaximilianB2/pc-gym) (👨‍💻 7 · 🔀 10 · 📦 5 · ⏱️ 21.10.2025):
+
+	```
+	git clone https://github.com/MaximilianB2/pc-gym
+	```
+- [PyPi](https://pypi.org/project/pcgym) (📥 100 / month · ⏱️ 03.12.2024):
+	```
+	pip install pcgym
 	```
 </details>
 <details><summary><b><a href="https://github.com/based-robotics/jaxadi">jaxadi</a></b> (🥉12 ·  ⭐ 170) - Transforms your CasADi functions into batchable JAX-compatible functions... <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
@@ -499,14 +511,15 @@ _List of projects applied to robotics._
 	git clone https://github.com/ADVRHumanoids/horizon
 	```
 </details>
-<details><summary>Show 7 hidden projects...</summary>
+<details><summary>Show 8 hidden projects...</summary>
 
-- <b><a href="https://github.com/ORB-HD/rbdl-orb">rbdl-orb</a></b> (🥉12 ·  ⭐ 100 · 💀) - RBDL - Rigid Body Dynamics Library - ORB Version - The two.. <code>Unlicensed</code>
+- <b><a href="https://github.com/ORB-HD/rbdl-orb">rbdl-orb</a></b> (🥈12 ·  ⭐ 100 · 💀) - RBDL - Rigid Body Dynamics Library - ORB Version - The two.. <code>Unlicensed</code>
+- <b><a href="https://github.com/mahaarbo/urdf2casadi">urdf2casadi</a></b> (🥉11 ·  ⭐ 120 · 💀) - Python library for getting a casadi function for the forward.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/junzis/openap-top">OpenAP</a></b> (🥉11 ·  ⭐ 35) - easy-peasy optimal flight trajectory. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
 - <b><a href="https://github.com/IvLabs/biped_trajectory_optimization">biped_trajectory_optimization</a></b> (🥉7 ·  ⭐ 86 · 💀) - Implementing trajectory optimization on bipedal system. <code>Unlicensed</code>
 - <b><a href="https://github.com/fevrem/TROPIC">TROPIC</a></b> (🥉7 ·  ⭐ 56 · 💀) - TROPIC: TRajectory OPtimization In CasADi. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
 - <b><a href="https://github.com/antoinefalisse/3dpredictsim">3dpredictsim</a></b> (🥉7 ·  ⭐ 44 · 💀) - Generate 3D muscle-driven predictive simulations of human.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/edxmorgan/diff_uv">diff_uv</a></b> (🥉4 ·  ⭐ 19 · 📉) - A differentiable underwater vehicle dynamics. <code><a href="http://bit.ly/3pwmjO5">AGPL-3.0</a></code>
+- <b><a href="https://github.com/edxmorgan/diff_uv">diff_uv</a></b> (🥉4 ·  ⭐ 19) - A differentiable underwater vehicle dynamics. <code><a href="http://bit.ly/3pwmjO5">AGPL-3.0</a></code>
 - <b><a href="https://github.com/duynamrcv/quadrotor_mpc">quadrotor_mpc</a></b> (🥉3 ·  ⭐ 55 · 💀) - The implement for the Quadrotor trajectory tracking.. <code>Unlicensed</code>
 </details>
 <br>
@@ -530,7 +543,7 @@ _List of articles repositories implemented with CasADi._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/pybamm-team/PyBaMM">PyBaMM</a></b> (🥇34 ·  ⭐ 1.4K · 📈) - Fast and flexible physics-based battery models in Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/pybamm-team/PyBaMM">PyBaMM</a></b> (🥇34 ·  ⭐ 1.4K) - Fast and flexible physics-based battery models in Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/pybamm-team/PyBaMM) (👨‍💻 140 · 🔀 700 · 📦 130 · 📋 1.7K - 10% open · ⏱️ 19.11.2025):
 
@@ -546,7 +559,7 @@ _List of articles repositories implemented with CasADi._
 	conda install -c conda-forge pybamm
 	```
 </details>
-<details><summary><b><a href="https://cadquery.readthedocs.io/">CadQuery/cadquery</a></b> (🥇32 ·  ⭐ 4.2K) - A python parametric CAD scripting framework based on.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://cadquery.readthedocs.io/">CadQuery</a></b> (🥇32 ·  ⭐ 4.2K · ➕) - A python parametric CAD scripting framework based on OCCT. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/CadQuery/cadquery) (👨‍💻 110 · 🔀 390 · 📦 450 · 📋 1.2K - 38% open · ⏱️ 19.11.2025):
 
@@ -602,6 +615,18 @@ _List of articles repositories implemented with CasADi._
 	conda install -c conda-forge liecasadi
 	```
 </details>
+<details><summary><b><a href="https://github.com/tud-amr/fabrics">(Geometric) Fabrics</a></b> (🥈14 ·  ⭐ 85 · ➕) - Optimization fabrics for behavior design. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code></summary>
+
+- [GitHub](https://github.com/tud-amr/fabrics) (👨‍💻 7 · 🔀 11 · 📦 16 · 📋 44 - 36% open · ⏱️ 01.02.2025):
+
+	```
+	git clone https://github.com/tud-amr/fabrics
+	```
+- [PyPi](https://pypi.org/project/fabrics) (📥 76 / month · 📦 2 · ⏱️ 01.02.2025):
+	```
+	pip install fabrics
+	```
+</details>
 <details><summary><b><a href="https://github.com/HybridRobotics/car-racing">car-racing</a></b> (🥉10 ·  ⭐ 190 · 💤) - A toolkit for testing control and planning algorithm for car racing. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/HybridRobotics/car-racing) (👨‍💻 3 · 🔀 36 · 📋 6 - 33% open · ⏱️ 19.04.2024):
@@ -617,13 +642,16 @@ _List of articles repositories implemented with CasADi._
 	pip install mopeds
 	```
 </details>
-<details><summary>Show 8 hidden projects...</summary>
+<details><summary>Show 11 hidden projects...</summary>
 
 - <b><a href="https://github.com/rtc-tools/rtc-tools">Deltares RTC-Tools</a></b> (🥈22 ·  ⭐ 10) - RTC-Tools is an open-source platform for the operational.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
-- <b><a href="https://github.com/adtzlr/matadi">matADi</a></b> (🥉12 ·  ⭐ 30) - Material Definition with Automatic Differentiation. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
+- <b><a href="https://github.com/adtzlr/matadi">matADi</a></b> (🥈12 ·  ⭐ 30) - Material Definition with Automatic Differentiation. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
 - <b><a href="https://github.com/junzis/openap-top">openap-top</a></b> (🥉11 ·  ⭐ 35) - easy-peasy optimal flight trajectory. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
+- <b><a href="https://github.com/jonarriza96/pydecomp">pydecomp</a></b> (🥉10 ·  ⭐ 30 · ➕) - A Python based implementation for fast convex decomposition of.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://meco-group.github.io/minlp-toolbox/">CAMINO</a></b> (🥉10 ·  ⭐ 28 · ➕) - Python-CasADi-based package containing several algorithms for.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
 - <b><a href="https://github.com/cmower/spatial-casadi">spatial-casadi</a></b> (🥉10 ·  ⭐ 17 · 💤) - Spatial transformation library for CasADi Python. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
 - <b><a href="https://github.com/adbuerger/casiopeia">casiopeia</a></b> (🥉7 ·  ⭐ 37 · 💀) - Casadi Interface for Optimum experimental design and Parameter.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
+- <b><a href="https://github.com/iFR-ACSO/casos">CaΣoS</a></b> (🥉6 ·  ⭐ 16 · ➕) - CaoS is a nonlinear optimization-oriented sum-of-squares toolbox based.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
 - <b><a href="https://github.com/meco-group/nlgreyfast">nlgreyfast</a></b> (🥉5 ·  ⭐ 26 · 💀) - Toolbox for system identification of nonlinear state space.. <code><a href="http://bit.ly/3pwmjO5">AGPL-3.0</a></code>
 - <b><a href="https://alphaville.github.io/optimization-engine/">pympc_panoc_ipopt</a></b> (🥉4 ·  ⭐ 31 · 💀) - MPC pathtracking implementation with python, solved by.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/rawlings-group/paresto">paresto</a></b> (🥉4 ·  ⭐ 3 · 💤) - A parameter estimation tool for MATLAB/Octave based on CasADi. <code>Unlicensed</code>
