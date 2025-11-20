@@ -4,11 +4,11 @@
 ## Related Resources
 
 - [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics.
-- - [**Best-of Generator**](https://github.com/best-of-lists/best-of-generator): Generates a ranked markdown list of awesome libraries and tools.
-- - [**Best-of ML with Python**](https://github.com/lukasmasuch/best-of-ml-python): A ranked list of awesome machine learning Python libraries. 
-- - [**Best-of ML with Julia**](https://github.com/e-tornike/best-of-ml-julia): A ranked list of awesome machine learning Julia libraries.
+  - [**Best-of Generator**](https://github.com/best-of-lists/best-of-generator): Generates a ranked markdown list of awesome libraries and tools.
+  - [**Best-of ML with Python**](https://github.com/lukasmasuch/best-of-ml-python): A ranked list of awesome machine learning Python libraries. 
+  - [**Best-of ML with Julia**](https://github.com/e-tornike/best-of-ml-julia): A ranked list of awesome machine learning Julia libraries.
 - [**Awesome list**](https://github.com/sindresorhus/awesome): An awesome list of awesome lists.
-- - [**Awesome Python Data Science**](https://github.com/krzjoa/awesome-python-data-science): An awesome curated list of data science software in Python.
+  - [**Awesome Python Data Science**](https://github.com/krzjoa/awesome-python-data-science): An awesome curated list of data science software in Python.
 
 ## Changed options from the best-of-generator
 
