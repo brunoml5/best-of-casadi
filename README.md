@@ -180,18 +180,6 @@ _List of solvers available in CasADi, excluding the paid solvers like Gurobi and
 	git clone https://github.com/LLNL/sundials
 	```
 </details>
-<details><summary><b><a href="https://clarabel.org/">Clarabel</a></b> (🥉22 ·  ⭐ 480) - Clarabel.rs: Interior-point solver for convex conic optimisation.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/oxfordcontrol/Clarabel.rs) (👨‍💻 11 · 🔀 36 · 📦 47 · 📋 63 - 22% open · ⏱️ 25.09.2025):
-
-	```
-	git clone https://github.com/oxfordcontrol/Clarabel.rs
-	```
-- [Conda](https://anaconda.org/conda-forge/clarabel) (📥 290K · ⏱️ 25.09.2025):
-	```
-	conda install -c conda-forge clarabel
-	```
-</details>
 <details><summary><b><a href="https://github.com/darnstrom/daqp">DAQP</a></b> (🥉21 ·  ⭐ 93) - A dual active-set algorithm for convex quadratic programming. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/darnstrom/daqp) (👨‍💻 5 · 🔀 16 · 📥 550 · 📦 110 · 📋 29 - 44% open · ⏱️ 13.11.2025):
@@ -206,6 +194,18 @@ _List of solvers available in CasADi, excluding the paid solvers like Gurobi and
 - [Conda](https://anaconda.org/conda-forge/daqp) (📥 120K · ⏱️ 13.05.2025):
 	```
 	conda install -c conda-forge daqp
+	```
+</details>
+<details><summary><b><a href="https://clarabel.org/">Clarabel</a></b> (🥉19 ·  ⭐ 480 · 📉) - Clarabel.rs: Interior-point solver for convex conic optimisation.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/oxfordcontrol/Clarabel.rs) (👨‍💻 11 · 🔀 36 · 📋 63 - 22% open · ⏱️ 25.09.2025):
+
+	```
+	git clone https://github.com/oxfordcontrol/Clarabel.rs
+	```
+- [Conda](https://anaconda.org/conda-forge/clarabel) (📥 290K · ⏱️ 25.09.2025):
+	```
+	conda install -c conda-forge clarabel
 	```
 </details>
 <details><summary><b><a href="https://madnlp.github.io/">MadNLP</a></b> (🥉16 ·  ⭐ 230) - A solver for nonlinear programming with GPU support. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
@@ -235,7 +235,7 @@ _List of solvers available in CasADi, excluding the paid solvers like Gurobi and
 	```
 	git clone https://github.com/meco-group/fatrop
 	```
-- [Conda](https://anaconda.org/conda-forge/libfatrop) (📥 81K · ⏱️ 22.04.2025):
+- [Conda](https://anaconda.org/conda-forge/libfatrop) (📥 82K · ⏱️ 22.04.2025):
 	```
 	conda install -c conda-forge libfatrop
 	```
@@ -270,7 +270,7 @@ _List of projects related Model Predictive Control and Optimal Control in genera
 
 <details><summary><b><a href="www.do-mpc.com/">do-mpc</a></b> (🥇27 ·  ⭐ 1.3K) - Model predictive control python toolbox. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code></summary>
 
-- [GitHub](https://github.com/do-mpc/do-mpc) (👨‍💻 34 · 🔀 200 · 📥 370 · 📋 250 - 32% open · ⏱️ 31.10.2025):
+- [GitHub](https://github.com/do-mpc/do-mpc) (👨‍💻 34 · 🔀 190 · 📥 370 · 📋 250 - 32% open · ⏱️ 31.10.2025):
 
 	```
 	git clone https://github.com/do-mpc/do-mpc
@@ -316,9 +316,17 @@ _List of projects related Model Predictive Control and Optimal Control in genera
 	pip install pyoptas
 	```
 </details>
-<details><summary><b><a href="https://mpopt.readthedocs.io/">MPOPT</a></b> (🥈13 ·  ⭐ 62 · 💤) - A pseudo-spectral collocation based multi-phase Optimal control.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://nosnoc.readthedocs.io/">nosnoc</a></b> (🥉12 ·  ⭐ 67) - nosnoc is an open-source MATLAB software package for NOnSmooth Numerical.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
-- [GitHub](https://github.com/mpopt/mpopt) (👨‍💻 6 · 🔀 20 · 📦 3 · ⏱️ 04.07.2024):
+- [GitHub](https://github.com/nosnoc/nosnoc) (👨‍💻 3 · 🔀 10 · 📋 55 - 50% open · ⏱️ 02.04.2025):
+
+	```
+	git clone https://github.com/nosnoc/nosnoc
+	```
+</details>
+<details><summary><b><a href="https://mpopt.readthedocs.io/">MPOPT</a></b> (🥉12 ·  ⭐ 62 · 💤) - A pseudo-spectral collocation based multi-phase Optimal control.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code></summary>
+
+- [GitHub](https://github.com/mpopt/mpopt) (👨‍💻 6 · 🔀 20 · ⏱️ 04.07.2024):
 
 	```
 	git clone https://github.com/mpopt/mpopt
@@ -326,14 +334,6 @@ _List of projects related Model Predictive Control and Optimal Control in genera
 - [PyPi](https://pypi.org/project/mpopt) (📥 220 / month · ⏱️ 04.07.2024):
 	```
 	pip install mpopt
-	```
-</details>
-<details><summary><b><a href="https://nosnoc.readthedocs.io/">nosnoc</a></b> (🥉12 ·  ⭐ 67) - nosnoc is an open-source MATLAB software package for NOnSmooth Numerical.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
-
-- [GitHub](https://github.com/nosnoc/nosnoc) (👨‍💻 3 · 🔀 10 · 📋 55 - 50% open · ⏱️ 02.04.2025):
-
-	```
-	git clone https://github.com/nosnoc/nosnoc
 	```
 </details>
 <details><summary><b><a href="https://github.com/tomcattiger1230/CasADi_MPC_MHE_Python">CasADi_MPC_MHE_Python</a></b> (🥉7 ·  ⭐ 170) - This repository is an implementation of the work from.. <code>Unlicensed</code></summary>
@@ -547,7 +547,7 @@ _List of articles repositories implemented with CasADi._
 
 <details><summary><b><a href="https://github.com/pybamm-team/PyBaMM">PyBaMM</a></b> (🥇34 ·  ⭐ 1.4K) - Fast and flexible physics-based battery models in Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/pybamm-team/PyBaMM) (👨‍💻 140 · 🔀 710 · 📦 130 · 📋 1.7K - 10% open · ⏱️ 19.11.2025):
+- [GitHub](https://github.com/pybamm-team/PyBaMM) (👨‍💻 140 · 🔀 710 · 📦 130 · 📋 1.7K - 10% open · ⏱️ 20.11.2025):
 
 	```
 	git clone https://github.com/pybamm-team/PyBaMM
@@ -664,11 +664,11 @@ _List of articles repositories implemented with CasADi._
 ## Related Resources
 
 - [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics.
-- - [**Best-of Generator**](https://github.com/best-of-lists/best-of-generator): Generates a ranked markdown list of awesome libraries and tools.
-- - [**Best-of ML with Python**](https://github.com/lukasmasuch/best-of-ml-python): A ranked list of awesome machine learning Python libraries. 
-- - [**Best-of ML with Julia**](https://github.com/e-tornike/best-of-ml-julia): A ranked list of awesome machine learning Julia libraries.
+  - [**Best-of Generator**](https://github.com/best-of-lists/best-of-generator): Generates a ranked markdown list of awesome libraries and tools.
+  - [**Best-of ML with Python**](https://github.com/lukasmasuch/best-of-ml-python): A ranked list of awesome machine learning Python libraries. 
+  - [**Best-of ML with Julia**](https://github.com/e-tornike/best-of-ml-julia): A ranked list of awesome machine learning Julia libraries.
 - [**Awesome list**](https://github.com/sindresorhus/awesome): An awesome list of awesome lists.
-- - [**Awesome Python Data Science**](https://github.com/krzjoa/awesome-python-data-science): An awesome curated list of data science software in Python.
+  - [**Awesome Python Data Science**](https://github.com/krzjoa/awesome-python-data-science): An awesome curated list of data science software in Python.
 
 ## Changed options from the best-of-generator
 
