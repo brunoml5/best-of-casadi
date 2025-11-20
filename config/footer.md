@@ -21,6 +21,27 @@ The following options were changed from the default settings of the [best-of-gen
 | `min_stars` | 50 | 100 |
 | `min_projectrank` | 5 | 10 |
 
+## Generating the list
+
+First, to generate the list, you'll need a free API key from - Get an API key from [libraries.io](https://libraries.io/api).
+
+### Generating the list locally
+
+To generate the list locally, follow these steps:
+- Install the environment with `uv sync`
+- Run the script with `uv run best-of generate -l your_API_key_here ./projects.yaml`
+
+For now, it only worked on Linux/WSL. It might not work on Windows.
+
+### Generating the list with GitHub Actions
+
+To generate the list with GitHub Actions, follow these steps:
+- Go to the repository settings, then `Secrets and Variables` > `Actions`.
+- Add a new repository secret with the name `LIBRARIES_KEY` and your API key from libraries.io as the value.
+- Go to the `Actions` tab of the repository.
+- Run the `update-best-of-list` workflow. A Pull Request will be generated after a few minutes.
+- Merge the Pull Request to update the list.
+
 <!-- ## Contribution
 
 Contributions are encouraged and always welcome! If you like to add or update projects, choose one of the following ways:
