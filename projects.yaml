@@ -412,7 +412,7 @@ projects:
   - name: CAMINO
     github_id: minlp-toolbox/CAMINO
     pypi_id: caminopy
-    homepage: https://meco-group.github.io/minlp-toolbox/
+    homepage: https://github.com/minlp-toolbox/CAMINO
 
   - name: pydecomp 
     github_id: jonarriza96/pydecomp
