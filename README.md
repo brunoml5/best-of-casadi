@@ -650,7 +650,7 @@ _List of articles repositories implemented with CasADi._
 - <b><a href="https://github.com/adtzlr/matadi">matADi</a></b> (🥈12 ·  ⭐ 30) - Material Definition with Automatic Differentiation. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
 - <b><a href="https://github.com/junzis/openap-top">openap-top</a></b> (🥉11 ·  ⭐ 35) - easy-peasy optimal flight trajectory. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
 - <b><a href="https://github.com/jonarriza96/pydecomp">pydecomp</a></b> (🥉10 ·  ⭐ 30) - A Python based implementation for fast convex decomposition of obstacle-.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://meco-group.github.io/minlp-toolbox/">CAMINO</a></b> (🥉10 ·  ⭐ 28) - Python-CasADi-based package containing several algorithms for solving.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
+- <b><a href="https://github.com/minlp-toolbox/CAMINO">CAMINO</a></b> (🥉10 ·  ⭐ 28) - Python-CasADi-based package containing several algorithms for solving.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
 - <b><a href="https://github.com/cmower/spatial-casadi">spatial-casadi</a></b> (🥉10 ·  ⭐ 17 · 💤) - Spatial transformation library for CasADi Python. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
 - <b><a href="https://github.com/adbuerger/casiopeia">casiopeia</a></b> (🥉7 ·  ⭐ 37 · 💀) - Casadi Interface for Optimum experimental design and Parameter.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
 - <b><a href="https://github.com/iFR-ACSO/casos">CaΣoS</a></b> (🥉6 ·  ⭐ 16) - CaoS is a nonlinear optimization-oriented sum-of-squares toolbox based on.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
@@ -665,10 +665,10 @@ _List of articles repositories implemented with CasADi._
 
 - [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics.
 - - [**Best-of Generator**](https://github.com/best-of-lists/best-of-generator): Generates a ranked markdown list of awesome libraries and tools.
-- [**Best-of ML with Python**](https://github.com/lukasmasuch/best-of-ml-python): A ranked list of awesome machine learning Python libraries. 
-- [**Best-of ML with Julia**](https://github.com/e-tornike/best-of-ml-julia): A ranked list of awesome machine learning Julia libraries.
+- - [**Best-of ML with Python**](https://github.com/lukasmasuch/best-of-ml-python): A ranked list of awesome machine learning Python libraries. 
+- - [**Best-of ML with Julia**](https://github.com/e-tornike/best-of-ml-julia): A ranked list of awesome machine learning Julia libraries.
 - [**Awesome list**](https://github.com/sindresorhus/awesome): An awesome list of awesome lists.
-- [**Awesome Python Data Science**](https://github.com/krzjoa/awesome-python-data-science): An awesome curated list of data science software in Python.
+- - [**Awesome Python Data Science**](https://github.com/krzjoa/awesome-python-data-science): An awesome curated list of data science software in Python.
 
 ## Changed options from the best-of-generator
 
@@ -680,6 +680,27 @@ The following options were changed from the default settings of the [best-of-gen
 | `project_dead_months` | 24 | 12 |
 | `min_stars` | 50 | 100 |
 | `min_projectrank` | 5 | 10 |
+
+## Generating the list
+
+First, to generate the list, you'll need a free API key from - Get an API key from [libraries.io](https://libraries.io/api).
+
+### Generating the list locally
+
+To generate the list locally, follow these steps:
+- Install the environment with `uv sync`
+- Run the script with `uv run best-of generate -l your_API_key_here ./projects.yaml`
+
+For now, it only worked on Linux/WSL. It might not work on Windows.
+
+### Generating the list with GitHub Actions
+
+To generate the list with GitHub Actions, follow these steps:
+- Go to the repository settings, then `Secrets and Variables` > `Actions`.
+- Add a new repository secret with the name `LIBRARIES_KEY` and your API key from libraries.io as the value.
+- Go to the `Actions` tab of the repository.
+- Run the `update-best-of-list` workflow. A Pull Request will be generated after a few minutes.
+- Merge the Pull Request to update the list.
 
 <!-- ## Contribution
 
