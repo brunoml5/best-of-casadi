@@ -17,9 +17,11 @@
 
 This curated list contains 72 awesome open-source projects with a total of 28K stars grouped into 6 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. 
 
-If you like to add or update projects, feel free to open an [issue](https://github.com/brunoml5/best-of-casadi/issues/new/choose), submit a [pull request](https://github.com/brunoml5/best-of-casadi/pulls), or directly edit the [projects.yaml](https://github.com/brunoml5/best-of-casadi/edit/main/projects.yaml). Contributions are very welcome!
-
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
+
+## Contribution
+
+If you like to add or update projects, feel free to open an [issue](https://github.com/brunoml5/best-of-casadi/issues/new/choose), submit a [pull request](https://github.com/brunoml5/best-of-casadi/pulls), or directly edit the [projects.yaml](https://github.com/brunoml5/best-of-casadi/edit/main/projects.yaml). For detailed info, please read the [contribution guidelines](https://github.com/brunoml5/best-of-casadi/blob/main/CONTRIBUTING.md). Contributions are very welcome!
 
 ## Contents
 
@@ -61,7 +63,7 @@ _List of projects related to the CasADi devs._
 	```
 	git clone https://github.com/casadi/casadi
 	```
-- [PyPi](https://pypi.org/project/casadi) (📥 490K / month · 📦 180 · ⏱️ 10.09.2025):
+- [PyPi](https://pypi.org/project/casadi) (📥 500K / month · 📦 180 · ⏱️ 10.09.2025):
 	```
 	pip install casadi
 	```
@@ -77,7 +79,7 @@ _List of projects related to the CasADi devs._
 	```
 	git clone https://github.com/meco-group/rockit
 	```
-- [PyPi](https://pypi.org/project/rockit-meco) (📥 3.5K / month · 📦 2 · ⏱️ 08.05.2025):
+- [PyPi](https://pypi.org/project/rockit-meco) (📥 3.6K / month · 📦 2 · ⏱️ 08.05.2025):
 	```
 	pip install rockit-meco
 	```
@@ -89,7 +91,7 @@ _List of projects related to the CasADi devs._
 	```
 	git clone https://github.com/meco-group/impact
 	```
-- [PyPi](https://pypi.org/project/impact-meco) (📥 57 / month · ⏱️ 22.09.2025):
+- [PyPi](https://pypi.org/project/impact-meco) (📥 56 / month · ⏱️ 22.09.2025):
 	```
 	pip install impact-meco
 	```
@@ -117,7 +119,7 @@ _List of solvers available in CasADi, excluding the paid solvers like Gurobi and
 	```
 	git clone https://github.com/osqp/osqp
 	```
-- [PyPi](https://pypi.org/project/osqp) (📥 2.6M / month · 📦 120 · ⏱️ 15.10.2025):
+- [PyPi](https://pypi.org/project/osqp) (📥 2.7M / month · 📦 120 · ⏱️ 15.10.2025):
 	```
 	pip install osqp
 	```
@@ -156,7 +158,7 @@ _List of solvers available in CasADi, excluding the paid solvers like Gurobi and
 </details>
 <details><summary><b><a href="https://github.com/Simple-Robotics/proxsuite">ProxQP</a></b> (🥈26 ·  ⭐ 520) - The Advanced Proximal Optimization Toolbox. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
-- [GitHub](https://github.com/Simple-Robotics/proxsuite) (👨‍💻 22 · 🔀 62 · 📥 36K · 📦 73 · 📋 93 - 18% open · ⏱️ 17.11.2025):
+- [GitHub](https://github.com/Simple-Robotics/proxsuite) (👨‍💻 22 · 🔀 63 · 📥 36K · 📦 73 · 📋 93 - 18% open · ⏱️ 17.11.2025):
 
 	```
 	git clone https://github.com/Simple-Robotics/proxsuite
@@ -273,7 +275,7 @@ _List of projects related Model Predictive Control and Optimal Control in genera
 	```
 	git clone https://github.com/do-mpc/do-mpc
 	```
-- [PyPi](https://pypi.org/project/do-mpc) (📥 29K / month · 📦 7 · ⏱️ 31.10.2025):
+- [PyPi](https://pypi.org/project/do-mpc) (📥 30K / month · 📦 7 · ⏱️ 31.10.2025):
 	```
 	pip install do-mpc
 	```
@@ -284,7 +286,7 @@ _List of projects related Model Predictive Control and Optimal Control in genera
 </details>
 <details><summary><b><a href="https://docs.acados.org/">acados</a></b> (🥇22 ·  ⭐ 1.2K) - Fast and embedded solvers for nonlinear optimal control and.. <code>Unlicensed</code></summary>
 
-- [GitHub](https://github.com/acados/acados) (👨‍💻 96 · 🔀 290 · 📥 94 · 📋 370 - 13% open · ⏱️ 18.11.2025):
+- [GitHub](https://github.com/acados/acados) (👨‍💻 96 · 🔀 290 · 📥 94 · 📋 370 - 13% open · ⏱️ 20.11.2025):
 
 	```
 	git clone https://github.com/acados/acados
@@ -297,7 +299,7 @@ _List of projects related Model Predictive Control and Optimal Control in genera
 	```
 	git clone https://github.com/hilo-mpc/hilo-mpc
 	```
-- [PyPi](https://pypi.org/project/hilo-mpc) (📥 320 / month · ⏱️ 09.11.2025):
+- [PyPi](https://pypi.org/project/hilo-mpc) (📥 350 / month · ⏱️ 09.11.2025):
 	```
 	pip install hilo-mpc
 	```
@@ -309,7 +311,7 @@ _List of projects related Model Predictive Control and Optimal Control in genera
 	```
 	git clone https://github.com/cmower/optas
 	```
-- [PyPi](https://pypi.org/project/pyoptas) (📥 97 / month · ⏱️ 04.08.2023):
+- [PyPi](https://pypi.org/project/pyoptas) (📥 91 / month · ⏱️ 04.08.2023):
 	```
 	pip install pyoptas
 	```
@@ -391,14 +393,14 @@ _List of projects related to Machine Learning, Reinforcement Learning, Neural Ne
 	git clone https://github.com/utiasDSL/safe-control-gym
 	```
 </details>
-<details><summary><b><a href="https://maximilianb2.github.io/pc-gym/">pc-gym</a></b> (🥉13 ·  ⭐ 67 · ➕) - Reinforcement learning environments for process control applications. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://maximilianb2.github.io/pc-gym/">pc-gym</a></b> (🥉13 ·  ⭐ 68) - Reinforcement learning environments for process control applications. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/MaximilianB2/pc-gym) (👨‍💻 7 · 🔀 10 · 📦 5 · ⏱️ 21.10.2025):
 
 	```
 	git clone https://github.com/MaximilianB2/pc-gym
 	```
-- [PyPi](https://pypi.org/project/pcgym) (📥 100 / month · ⏱️ 03.12.2024):
+- [PyPi](https://pypi.org/project/pcgym) (📥 98 / month · ⏱️ 03.12.2024):
 	```
 	pip install pcgym
 	```
@@ -410,7 +412,7 @@ _List of projects related to Machine Learning, Reinforcement Learning, Neural Ne
 	```
 	git clone https://github.com/based-robotics/jaxadi
 	```
-- [PyPi](https://pypi.org/project/jaxadi) (📥 41 / month · ⏱️ 08.02.2025):
+- [PyPi](https://pypi.org/project/jaxadi) (📥 42 / month · ⏱️ 08.02.2025):
 	```
 	pip install jaxadi
 	```
@@ -437,12 +439,12 @@ _List of projects applied to robotics._
 
 <details><summary><b><a href="https://stack-of-tasks.github.io/pinocchio/">pinocchio</a></b> (🥇31 ·  ⭐ 2.9K) - A fast and flexible implementation of Rigid Body Dynamics algorithms.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
-- [GitHub](https://github.com/stack-of-tasks/pinocchio) (👨‍💻 100 · 🔀 450 · 📥 80K · 📋 1.2K - 8% open · ⏱️ 19.11.2025):
+- [GitHub](https://github.com/stack-of-tasks/pinocchio) (👨‍💻 100 · 🔀 450 · 📥 80K · 📋 1.2K - 8% open · ⏱️ 20.11.2025):
 
 	```
 	git clone https://github.com/stack-of-tasks/pinocchio
 	```
-- [PyPi](https://pypi.org/project/pinocchio) (📥 51K / month · 📦 4 · ⏱️ 15.12.2021):
+- [PyPi](https://pypi.org/project/pinocchio) (📥 52K / month · 📦 4 · ⏱️ 15.12.2021):
 	```
 	pip install pinocchio
 	```
@@ -477,7 +479,7 @@ _List of projects applied to robotics._
 </details>
 <details><summary><b><a href="https://adam-docs.readthedocs.io/en/latest/">adam</a></b> (🥈22 ·  ⭐ 200) - adam implements a collection of algorithms for calculating rigid-body.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/ami-iit/adam) (👨‍💻 11 · 🔀 25 · 📥 24 · 📦 7 · 📋 48 - 29% open · ⏱️ 18.11.2025):
+- [GitHub](https://github.com/ami-iit/adam) (👨‍💻 11 · 🔀 25 · 📥 25 · 📦 7 · 📋 48 - 29% open · ⏱️ 18.11.2025):
 
 	```
 	git clone https://github.com/ami-iit/adam
@@ -498,7 +500,7 @@ _List of projects applied to robotics._
 	```
 	git clone https://github.com/meco-group/omg-tools
 	```
-- [PyPi](https://pypi.org/project/omg-tools) (📥 28 / month · ⏱️ 01.12.2017):
+- [PyPi](https://pypi.org/project/omg-tools) (📥 29 / month · ⏱️ 01.12.2017):
 	```
 	pip install omg-tools
 	```
@@ -545,12 +547,12 @@ _List of articles repositories implemented with CasADi._
 
 <details><summary><b><a href="https://github.com/pybamm-team/PyBaMM">PyBaMM</a></b> (🥇34 ·  ⭐ 1.4K) - Fast and flexible physics-based battery models in Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/pybamm-team/PyBaMM) (👨‍💻 140 · 🔀 700 · 📦 130 · 📋 1.7K - 10% open · ⏱️ 19.11.2025):
+- [GitHub](https://github.com/pybamm-team/PyBaMM) (👨‍💻 140 · 🔀 710 · 📦 130 · 📋 1.7K - 10% open · ⏱️ 19.11.2025):
 
 	```
 	git clone https://github.com/pybamm-team/PyBaMM
 	```
-- [PyPi](https://pypi.org/project/pybamm) (📥 57K / month · 📦 11 · ⏱️ 14.11.2025):
+- [PyPi](https://pypi.org/project/pybamm) (📥 59K / month · 📦 11 · ⏱️ 14.11.2025):
 	```
 	pip install pybamm
 	```
@@ -559,14 +561,14 @@ _List of articles repositories implemented with CasADi._
 	conda install -c conda-forge pybamm
 	```
 </details>
-<details><summary><b><a href="https://cadquery.readthedocs.io/">CadQuery</a></b> (🥇32 ·  ⭐ 4.2K · ➕) - A python parametric CAD scripting framework based on OCCT. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://cadquery.readthedocs.io/">CadQuery</a></b> (🥇32 ·  ⭐ 4.2K) - A python parametric CAD scripting framework based on OCCT. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/CadQuery/cadquery) (👨‍💻 110 · 🔀 390 · 📦 450 · 📋 1.2K - 38% open · ⏱️ 19.11.2025):
 
 	```
 	git clone https://github.com/CadQuery/cadquery
 	```
-- [PyPi](https://pypi.org/project/cadquery) (📥 86K / month · 📦 82 · ⏱️ 28.10.2025):
+- [PyPi](https://pypi.org/project/cadquery) (📥 89K / month · 📦 82 · ⏱️ 28.10.2025):
 	```
 	pip install cadquery
 	```
@@ -582,7 +584,7 @@ _List of articles repositories implemented with CasADi._
 	```
 	git clone https://github.com/pymoca/pymoca
 	```
-- [PyPi](https://pypi.org/project/pymoca) (📥 24K / month · 📦 6 · ⏱️ 28.01.2025):
+- [PyPi](https://pypi.org/project/pymoca) (📥 25K / month · 📦 6 · ⏱️ 28.01.2025):
 	```
 	pip install pymoca
 	```
@@ -594,12 +596,12 @@ _List of articles repositories implemented with CasADi._
 	```
 	git clone https://github.com/CPCLAB-UNIPI/SIPPY
 	```
-- [PyPi](https://pypi.org/project/sippy_unipi) (📥 250 / month · ⏱️ 02.09.2025):
+- [PyPi](https://pypi.org/project/sippy_unipi) (📥 260 / month · ⏱️ 02.09.2025):
 	```
 	pip install sippy_unipi
 	```
 </details>
-<details><summary><b><a href="https://github.com/ami-iit/liecasadi">liecasadi</a></b> (🥈15 ·  ⭐ 85) - Rigid transform using Lie groups and Dual Quaternions, written in.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/ami-iit/liecasadi">liecasadi</a></b> (🥈15 ·  ⭐ 86) - Rigid transform using Lie groups and Dual Quaternions, written in.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/ami-iit/liecasadi) (👨‍💻 4 · 🔀 8 · 📥 13 · 📦 10 · 📋 6 - 16% open · ⏱️ 15.07.2025):
 
@@ -610,19 +612,19 @@ _List of articles repositories implemented with CasADi._
 	```
 	pip install liecasadi
 	```
-- [Conda](https://anaconda.org/conda-forge/liecasadi) (📥 5.1K · ⏱️ 22.04.2025):
+- [Conda](https://anaconda.org/conda-forge/liecasadi) (📥 5.2K · ⏱️ 22.04.2025):
 	```
 	conda install -c conda-forge liecasadi
 	```
 </details>
-<details><summary><b><a href="https://github.com/tud-amr/fabrics">(Geometric) Fabrics</a></b> (🥈14 ·  ⭐ 85 · ➕) - Optimization fabrics for behavior design. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/tud-amr/fabrics">(Geometric) Fabrics</a></b> (🥈14 ·  ⭐ 85) - Optimization fabrics for behavior design. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/tud-amr/fabrics) (👨‍💻 7 · 🔀 11 · 📦 16 · 📋 44 - 36% open · ⏱️ 01.02.2025):
 
 	```
 	git clone https://github.com/tud-amr/fabrics
 	```
-- [PyPi](https://pypi.org/project/fabrics) (📥 76 / month · 📦 2 · ⏱️ 01.02.2025):
+- [PyPi](https://pypi.org/project/fabrics) (📥 74 / month · 📦 2 · ⏱️ 01.02.2025):
 	```
 	pip install fabrics
 	```
@@ -647,11 +649,11 @@ _List of articles repositories implemented with CasADi._
 - <b><a href="https://github.com/rtc-tools/rtc-tools">Deltares RTC-Tools</a></b> (🥈22 ·  ⭐ 10) - RTC-Tools is an open-source platform for the operational.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
 - <b><a href="https://github.com/adtzlr/matadi">matADi</a></b> (🥈12 ·  ⭐ 30) - Material Definition with Automatic Differentiation. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
 - <b><a href="https://github.com/junzis/openap-top">openap-top</a></b> (🥉11 ·  ⭐ 35) - easy-peasy optimal flight trajectory. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
-- <b><a href="https://github.com/jonarriza96/pydecomp">pydecomp</a></b> (🥉10 ·  ⭐ 30 · ➕) - A Python based implementation for fast convex decomposition of.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://meco-group.github.io/minlp-toolbox/">CAMINO</a></b> (🥉10 ·  ⭐ 28 · ➕) - Python-CasADi-based package containing several algorithms for.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
+- <b><a href="https://github.com/jonarriza96/pydecomp">pydecomp</a></b> (🥉10 ·  ⭐ 30) - A Python based implementation for fast convex decomposition of obstacle-.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://meco-group.github.io/minlp-toolbox/">CAMINO</a></b> (🥉10 ·  ⭐ 28) - Python-CasADi-based package containing several algorithms for solving.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
 - <b><a href="https://github.com/cmower/spatial-casadi">spatial-casadi</a></b> (🥉10 ·  ⭐ 17 · 💤) - Spatial transformation library for CasADi Python. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
 - <b><a href="https://github.com/adbuerger/casiopeia">casiopeia</a></b> (🥉7 ·  ⭐ 37 · 💀) - Casadi Interface for Optimum experimental design and Parameter.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
-- <b><a href="https://github.com/iFR-ACSO/casos">CaΣoS</a></b> (🥉6 ·  ⭐ 16 · ➕) - CaoS is a nonlinear optimization-oriented sum-of-squares toolbox based.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
+- <b><a href="https://github.com/iFR-ACSO/casos">CaΣoS</a></b> (🥉6 ·  ⭐ 16) - CaoS is a nonlinear optimization-oriented sum-of-squares toolbox based on.. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
 - <b><a href="https://github.com/meco-group/nlgreyfast">nlgreyfast</a></b> (🥉5 ·  ⭐ 26 · 💀) - Toolbox for system identification of nonlinear state space.. <code><a href="http://bit.ly/3pwmjO5">AGPL-3.0</a></code>
 - <b><a href="https://alphaville.github.io/optimization-engine/">pympc_panoc_ipopt</a></b> (🥉4 ·  ⭐ 31 · 💀) - MPC pathtracking implementation with python, solved by.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 - <b><a href="https://github.com/rawlings-group/paresto">paresto</a></b> (🥉4 ·  ⭐ 3 · 💤) - A parameter estimation tool for MATLAB/Octave based on CasADi. <code>Unlicensed</code>
@@ -662,8 +664,24 @@ _List of articles repositories implemented with CasADi._
 ## Related Resources
 
 - [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics.
+- - [**Best-of Generator**](https://github.com/best-of-lists/best-of-generator): Generates a ranked markdown list of awesome libraries and tools.
+- [**Best-of ML with Python**](https://github.com/lukasmasuch/best-of-ml-python): A ranked list of awesome machine learning Python libraries. 
+- [**Best-of ML with Julia**](https://github.com/e-tornike/best-of-ml-julia): A ranked list of awesome machine learning Julia libraries.
+- [**Awesome list**](https://github.com/sindresorhus/awesome): An awesome list of awesome lists.
+- [**Awesome Python Data Science**](https://github.com/krzjoa/awesome-python-data-science): An awesome curated list of data science software in Python.
 
-## Contribution
+## Changed options from the best-of-generator
+
+The following options were changed from the default settings of the [best-of-generator](https://github.com/best-of-lists/best-of-generator) for a better ranking and inclusion of projects:
+| Option | Value | Default |
+|---|---:|---:|
+| `project_new_months` | 12 | 6 |
+| `project_inactive_months` | 12 | 6 |
+| `project_dead_months` | 24 | 12 |
+| `min_stars` | 50 | 100 |
+| `min_projectrank` | 5 | 10 |
+
+<!-- ## Contribution
 
 Contributions are encouraged and always welcome! If you like to add or update projects, choose one of the following ways:
 
@@ -672,8 +690,10 @@ Contributions are encouraged and always welcome! If you like to add or update pr
 
 If you like to contribute to or share suggestions regarding the project metadata collection or markdown generation, please refer to the [best-of-generator](https://github.com/best-of-lists/best-of-generator) repository. If you like to create your own best-of list, we recommend to follow [this guide](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
-For more information on how to add or update projects, please read the [contribution guidelines](https://github.com/brunoml5/best-of-casadi/blob/main/CONTRIBUTING.md). By participating in this project, you agree to abide by its [Code of Conduct](https://github.com/brunoml5/best-of-casadi/blob/main/.github/CODE_OF_CONDUCT.md).
+For more information on how to add or update projects, please read the [contribution guidelines](https://github.com/brunoml5/best-of-casadi/blob/main/CONTRIBUTING.md). By participating in this project, you agree to abide by its [Code of Conduct](https://github.com/brunoml5/best-of-casadi/blob/main/.github/CODE_OF_CONDUCT.md). -->
 
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Check the [License](https://github.com/brunoml5/best-of-casadi/?tab=CC-BY-SA-4.0-1-ov-file) tab for more info.
