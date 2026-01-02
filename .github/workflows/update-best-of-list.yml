@@ -8,7 +8,7 @@ on:
         description: "Version to use for this update"
         required: false
   schedule:
-    - cron: "0 18 * * 4" # Every thursday at 6pm
+    - cron: "0 18 1 * *" # 1st of every month at 18:00 UTC
 
 env:
   BRANCH_PREFIX: "update/"
