@@ -2,19 +2,14 @@
 
 _Projects that have a higher project-quality score compared to the last update. There might be a variety of reasons, such as increased downloads or code activity._
 
-- <b><a href="https://osqp.org/">OSQP</a></b> (🥇26 ·  ⭐ 2.1K · 📈) - The Operator Splitting QP Solver. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code>
-- <b><a href="https://github.com/pybamm-team/PyBaMM">PyBaMM</a></b> (🥇25 ·  ⭐ 1.7K · 📈) - Fast and flexible physics-based battery models in Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
-- <b><a href="https://github.com/darnstrom/daqp">DAQP</a></b> (🥇23 ·  ⭐ 120 · 📈) - A dual active-set algorithm for convex quadratic programming. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="www.do-mpc.com/">do-mpc</a></b> (🥇20 ·  ⭐ 1K · 📈) - Model predictive control python toolbox. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
-- <b><a href="https://github.com/adtzlr/matadi">matADi</a></b> (🥈12 ·  ⭐ 32 · 📈) - Material Definition with Automatic Differentiation. <code><a href="http://bit.ly/2M0xdwT">GPL-3.0</a></code>
+- <b><a href="https://stack-of-tasks.github.io/pinocchio/">pinocchio</a></b> (🥇21 ·  ⭐ 3.6K · 📈) - A fast and flexible implementation of Rigid Body Dynamics.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code>
+- <b><a href="https://github.com/Tim-Salzmann/l4casadi">l4casadi</a></b> (🥇15 ·  ⭐ 350 · 💀) - Use PyTorch Models with CasADi for data-driven optimization or.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+- <b><a href="https://meco-group.github.io/fatrop/">Fatrop</a></b> (🥉12 ·  ⭐ 33 · 📈) - Fatrop is a nonlinear optimal control problem solver that aims to.. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
+- <b><a href="https://nmpyc.readthedocs.io/">nMPyC</a></b> (🥉8 ·  ⭐ 14 · 💀) - MPC package for solving optimal control problems. <code><a href="http://bit.ly/37RvQcA">LGPL-3.0</a></code>
 
 ## 📉 Trending Down
 
 _Projects that have a lower project-quality score compared to the last update. There might be a variety of reasons such as decreased downloads or code activity._
 
-- <b><a href="https://github.com/peterdsharpe/AeroSandbox">AeroSandbox</a></b> (🥇23 ·  ⭐ 1.2K · 📉) - Aircraft design optimization made fast through computational.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/Tim-Salzmann/l4casadi">l4casadi</a></b> (🥈14 ·  ⭐ 350 · 💤) - Use PyTorch Models with CasADi for data-driven optimization or.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/jonarriza96/pydecomp">pydecomp</a></b> (🥈11 ·  ⭐ 33 · 📉) - A Python based implementation for fast convex decomposition of.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://github.com/based-robotics/jaxadi">jaxadi</a></b> (🥉9 ·  ⭐ 130 · 💤) - Transforms your CasADi functions into batchable JAX-compatible.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-- <b><a href="https://git.tu-berlin.de/dbta/optimization/mopeds">mopeds</a></b> (🥉4 · 📉) - Simulate and Optimize (Parameter Estimation, Optimal Experimental.. <code>Unlicensed</code>
+- <b><a href="https://mpc-reinforcement-learning.readthedocs.io/">mpc-reinforcement-learning</a></b> (🥈14 ·  ⭐ 550 · 💤) - Reinforcement Learning with Model Predictive Control. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
 
